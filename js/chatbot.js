@@ -325,7 +325,7 @@ _(Our senior advisor will personally call you within 15 minutes.)_`);
             formData.append('form-name', 'chatbot-lead');
             formData.append('name', leadData.name);
             formData.append('phone', leadData.phone);
-            formData.append('interest', activeLeadProperty || chatHistory.map(h => h.text).slice(-4).join(' | '));
+            formData.append('interest', CURRENT_PROPERTY || chatHistory.map(h => h.text).slice(-4).join(' | '));
             formData.append('source', window.location.href);
             formData.append('timestamp', new Date().toISOString());
 
@@ -343,7 +343,7 @@ _(Our senior advisor will personally call you within 15 minutes.)_`);
                     body: JSON.stringify({
                         name: leadData.name,
                         phone: leadData.phone,
-                        interest: activeLeadProperty || chatHistory.map(h => h.text).slice(-4).join(' | '),
+                        interest: CURRENT_PROPERTY || chatHistory.map(h => h.text).slice(-4).join(' | '),
                         source: window.location.href,
                         timestamp: new Date().toISOString()
                     })
