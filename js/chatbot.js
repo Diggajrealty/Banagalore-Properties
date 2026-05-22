@@ -297,29 +297,39 @@ function startLeadCapture() {
 
 async function handleLeadCapture(userText) {
     if (leadState === LEAD_STATE.ASKING_NAME) {
-        leadData.name = userText;
+        const cleaned = userText.trim();
+
+        // Reject short/non-name responses
+        const rejectionWords = ['no', 'nope', 'nah', 'yes', 'ok', 'okay', 'skip', 'later',
+            'dont', "don't", 'nothing', 'none', 'na', 'n/a', 'not now', 'no thanks'];
+        const isRejection = rejectionWords.some(w => cleaned.toLowerCase() === w);
+        const isTooShort = cleaned.replace(/\s/g, '').length < 2;
+        const hasNoLetters = !/[a-zA-Z]/.test(cleaned);
+
+        if (isRejection || isTooShort || hasNoLetters) {
+            appendBotMessage(`No worries! 😊 I just need a name to address you — even your first name works!\n\n**What should I call you?**`);
+            return true;
+        }
+
+        leadData.name = cleaned;
         leadState = LEAD_STATE.ASKING_PHONE;
-        appendBotMessage(`Thanks, **${leadData.name}**! 🙏
-
-**What’s the best phone number to reach you on?**
-
-_(Our senior advisor will personally call you within 15 minutes.)_`);
+        appendBotMessage(`Thanks, **${leadData.name}**! 🙏\n\n**What's the best phone number to reach you on?**\n\n_(Our senior advisor will personally call you within 15 minutes.)_`);
         return true;
     }
 
     if (leadState === LEAD_STATE.ASKING_PHONE) {
-        const phoneRegex = /[6-9]\d{9}/;
-        const match = userText.replace(/\s|-/g, '').match(phoneRegex);
-        if (!match) {
-            appendBotMessage(`Could you please share a valid 10-digit Indian mobile number? 📱`);
+        // Strip spaces, dashes, + and 91 prefix, then validate EXACTLY 10 digits starting 6-9
+        const stripped = userText.replace(/[\s\-\+]/g, '').replace(/^91/, '');
+        const phoneRegex = /^[6-9]\d{9}$/;
+        if (!phoneRegex.test(stripped)) {
+            appendBotMessage(`Please share a valid **10-digit Indian mobile number** starting with 6, 7, 8, or 9. 📱\n\n_(Example: 9876543210)_`);
             return true;
         }
-        leadData.phone = match[0];
+        leadData.phone = stripped;
         leadState = LEAD_STATE.DONE;
         leadCaptured = true;
 
         // Submit lead to Netlify Forms (triggers email notification)
-        // Falls back to serverless function if Netlify Forms isn't available (local dev)
         try {
             const formData = new URLSearchParams();
             formData.append('form-name', 'chatbot-lead');
@@ -350,6 +360,9 @@ _(Our senior advisor will personally call you within 15 minutes.)_`);
                 });
             } catch (e2) { /* silent fail */ }
         }
+
+
+
 
         // Confirmation message
         appendBotMessage(`✅ All set, **${leadData.name}**! Our senior advisor will call **+91 ${leadData.phone}** within the next **15 minutes** with the latest pricing and available inventory${CURRENT_PROPERTY ? ' for **' + CURRENT_PROPERTY + '**' : ''}. 🏡✨\n\nIs there anything else I can help you with?`);
