@@ -30,7 +30,21 @@
         .content-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
         .content-table th { background: var(--color-gold); color: #000; padding: 15px; text-align: left; }
         .content-table td { padding: 15px; border-bottom: 1px solid #ddd; }
-        @media (max-width: 992px) { .layout-grid { grid-template-columns: 1fr; } }
+        @media (max-width: 992px) { 
+            .layout-grid { grid-template-columns: 1fr; padding: 0 15px; } 
+            .prop-hero { height: auto; padding: 120px 0 60px; }
+            .prop-hero h1 { font-size: 2.4rem; line-height: 1.2; padding: 0 15px; }
+            .prop-hero p { font-size: 1.1rem !important; padding: 0 15px; line-height: 1.5; }
+            .prop-section { padding: 20px; border-radius: 8px; }
+            .prop-section h2 { font-size: 1.7rem; line-height: 1.3; }
+            .content-table { display: block; overflow-x: auto; white-space: nowrap; width: 100%; }
+            .content-table th, .content-table td { padding: 10px; font-size: 0.9rem; }
+            .enquiry-card { padding: 20px; }
+            .highlight-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+            /* EMI Calculator mobile fix */
+            #emi-calculator > div { padding: 20px !important; }
+            #emi-calculator > div > div { grid-template-columns: 1fr !important; gap: 25px !important; display: grid; }
+        }
     </style>
     <link rel="stylesheet" href="../../css/chatbot.css">
 <script type="application/ld+json">
@@ -123,22 +137,22 @@
             <nav class="nav-links">
                 <a href="/" class="active">Home</a>
                 <div class="dropdown">
-                    <a href="/locations/">Locations ▾</a>
+                    <a href="/properties/">Locations ▾</a>
                     <div class="mega-menu">
                         <div class="mega-column">
                             <h4>Sarjapur Road</h4>
-                            <a href="/locations/bellandur/">Bellandur</a>
-                            <a href="/locations/harlur-road/">Harlur Road</a>
-                            <a href="/locations/carmelaram/">Carmelaram</a>
-                            <a href="/locations/panathur/">Panathur</a>
+                            <a href="/properties/?location=bellandur">Bellandur</a>
+                            <a href="/properties/?location=harlur-road">Harlur Road</a>
+                            <a href="/properties/?location=carmelaram">Carmelaram</a>
+                            <a href="/properties/?location=panathur">Panathur</a>
                         </div>
                         <div class="mega-column">
                             <h4>Varthur Road</h4>
-                            <a href="/locations/varthur/">Varthur</a>
-                            <a href="/locations/whitefield/">Whitefield</a>
-                            <a href="/locations/marathahalli/">Marathahalli</a>
-                            <a href="/locations/gunjur/">Gunjur</a>
-                            <a href="/locations/balagere/">Balagere</a>
+                            <a href="/properties/?location=varthur">Varthur</a>
+                            <a href="/properties/?location=whitefield">Whitefield</a>
+                            <a href="/properties/?location=marathahalli">Marathahalli</a>
+                            <a href="/properties/?location=gunjur">Gunjur</a>
+                            <a href="/properties/?location=balagere">Balagere</a>
                         </div>
                     </div>
                 </div>
@@ -332,69 +346,6 @@
 
                 <h3>Smart Home & Security</h3>
                 <p>Every home is a "Smart Home." Prestige Lavender Fields integrates an advanced home automation system allowing residents to control lighting, temperature, and entertainment via a centralized iPad or their smartphones. Security is impenetrable, featuring a 5-tier protocol: biometric main door locks, video door phones, 24/7 CCTV surveillance across all common areas, RFID-controlled boom barriers for vehicles, and highly trained security personnel patrolling the perimeter.</p>
-            </section>
-
-            
-            <!-- EMI CALCULATOR -->
-            <section class="prop-section" id="emi-calculator" style="margin-top: 40px;">
-                <h2>Interactive EMI Calculator</h2>
-                <p>Estimate your monthly home loan EMI. Adjust the sliders below to match your exact loan requirements.</p>
-                
-                <div style="background: var(--color-bg-light); padding: 30px; border-radius: 12px; border: 1px solid var(--color-border); margin-top: 20px;">
-                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; align-items: center;">
-                        
-                        <div>
-                            <div style="margin-bottom: 25px;">
-                                <label style="display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 10px; color: var(--color-dark);">Loan Amount (₹) <span id="loanVal" style="color: var(--color-gold);">1,00,00,000</span></label>
-                                <input type="range" id="loanRange" min="1000000" max="50000000" step="100000" value="10000000" style="width: 100%; accent-color: var(--color-gold); cursor: pointer;">
-                            </div>
-                            <div style="margin-bottom: 25px;">
-                                <label style="display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 10px; color: var(--color-dark);">Interest Rate (%) <span id="rateVal" style="color: var(--color-gold);">8.5</span></label>
-                                <input type="range" id="rateRange" min="6.0" max="15.0" step="0.1" value="8.5" style="width: 100%; accent-color: var(--color-gold); cursor: pointer;">
-                            </div>
-                            <div style="margin-bottom: 20px;">
-                                <label style="display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 10px; color: var(--color-dark);">Loan Tenure (Years) <span id="tenureVal" style="color: var(--color-gold);">20</span></label>
-                                <input type="range" id="tenureRange" min="5" max="30" step="1" value="20" style="width: 100%; accent-color: var(--color-gold); cursor: pointer;">
-                            </div>
-                        </div>
-
-                        <div style="background: white; padding: 30px; border-radius: 12px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border: 1px solid #eee;">
-                            <h4 style="color: var(--color-dark); margin-bottom: 10px; font-size: 1.2rem;">Your Monthly EMI</h4>
-                            <h3 id="emiResult" style="color: var(--color-gold); font-size: 2.5rem; margin-bottom: 20px; font-family: var(--font-display);">₹ 86,782</h3>
-                            <div style="background: #fafafa; padding: 15px; border-radius: 8px; border: 1px dashed #ccc;">
-                                <p style="color: #666; font-size: 0.95rem; margin-bottom: 5px;">Total Interest Payable: <strong id="totalInterest" style="color: var(--color-dark);">₹ 1,08,27,759</strong></p>
-                                <p style="color: #666; font-size: 0.95rem;">Total Payment (Prin + Int): <strong id="totalAmount" style="color: var(--color-dark);">₹ 2,08,27,759</strong></p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-
-                <script>
-                    function calculateEMI() {
-                        let p = parseFloat(document.getElementById('loanRange').value);
-                        let r = parseFloat(document.getElementById('rateRange').value) / 12 / 100;
-                        let n = parseFloat(document.getElementById('tenureRange').value) * 12;
-                        
-                        let emi = p * r * (Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
-                        let totalPayment = emi * n;
-                        let totalInt = totalPayment - p;
-
-                        document.getElementById('loanVal').innerText = p.toLocaleString('en-IN');
-                        document.getElementById('rateVal').innerText = document.getElementById('rateRange').value;
-                        document.getElementById('tenureVal').innerText = document.getElementById('tenureRange').value;
-                        
-                        document.getElementById('emiResult').innerText = "₹ " + Math.round(emi).toLocaleString('en-IN');
-                        document.getElementById('totalInterest').innerText = "₹ " + Math.round(totalInt).toLocaleString('en-IN');
-                        document.getElementById('totalAmount').innerText = "₹ " + Math.round(totalPayment).toLocaleString('en-IN');
-                    }
-
-                    document.getElementById('loanRange').addEventListener('input', calculateEMI);
-                    document.getElementById('rateRange').addEventListener('input', calculateEMI);
-                    document.getElementById('tenureRange').addEventListener('input', calculateEMI);
-                    
-                    calculateEMI();
-                </script>
             </section>
 
 <!-- INVESTMENT -->

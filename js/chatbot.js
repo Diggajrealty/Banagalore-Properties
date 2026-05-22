@@ -367,6 +367,10 @@ _(Our senior advisor will personally call you within 15 minutes.)_`);
 }
 
 async function sendMessage(overrideText = null) {
+    // If called via click event, overrideText is an Event object, not a string
+    if (overrideText && typeof overrideText !== 'string') {
+        overrideText = null;
+    }
     const input = document.getElementById('pb-input');
     const text = (overrideText || input.value).trim();
     if (!text) return;

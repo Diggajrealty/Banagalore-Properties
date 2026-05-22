@@ -46,7 +46,24 @@
     from { opacity: 0; transform: translateY(30px) scale(0.96); }
     to { opacity: 1; transform: translateY(0) scale(1); }
 }
-</style>
+
+        @media (max-width: 992px) { 
+            .layout-grid { grid-template-columns: 1fr; padding: 0 15px; } 
+            .prop-hero { height: auto; padding: 120px 0 60px; }
+            .prop-hero h1 { font-size: 2.4rem; line-height: 1.2; padding: 0 15px; }
+            .prop-hero p { font-size: 1.1rem !important; padding: 0 15px; line-height: 1.5; }
+            .prop-section { padding: 20px; border-radius: 8px; }
+            .prop-section h2 { font-size: 1.7rem; line-height: 1.3; }
+            .content-table { display: block; overflow-x: auto; white-space: nowrap; width: 100%; }
+            .content-table th, .content-table td { padding: 10px; font-size: 0.9rem; }
+            .enquiry-card { padding: 20px; }
+            .highlight-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+            /* EMI Calculator mobile fix */
+            #emi-calculator > div { padding: 20px !important; }
+            #emi-calculator > div > div { grid-template-columns: 1fr !important; gap: 25px !important; display: flex !important; flex-direction: column; }
+            #emi-calculator > div > div > div { width: 100%; }
+        }
+        </style>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const bar = document.getElementById('pb-splash-bar');
@@ -73,22 +90,22 @@
             <nav class="nav-links">
                 <a href="/" class="active">Home</a>
                 <div class="dropdown">
-                    <a href="/locations/">Locations ▾</a>
+                    <a href="/properties/">Locations ▾</a>
                     <div class="mega-menu">
                         <div class="mega-column">
                             <h4>Sarjapur Road</h4>
-                            <a href="/locations/bellandur/">Bellandur</a>
-                            <a href="/locations/harlur-road/">Harlur Road</a>
-                            <a href="/locations/carmelaram/">Carmelaram</a>
-                            <a href="/locations/panathur/">Panathur</a>
+                            <a href="/properties/?location=bellandur">Bellandur</a>
+                            <a href="/properties/?location=harlur-road">Harlur Road</a>
+                            <a href="/properties/?location=carmelaram">Carmelaram</a>
+                            <a href="/properties/?location=panathur">Panathur</a>
                         </div>
                         <div class="mega-column">
                             <h4>Varthur Road</h4>
-                            <a href="/locations/varthur/">Varthur</a>
-                            <a href="/locations/whitefield/">Whitefield</a>
-                            <a href="/locations/marathahalli/">Marathahalli</a>
-                            <a href="/locations/gunjur/">Gunjur</a>
-                            <a href="/locations/balagere/">Balagere</a>
+                            <a href="/properties/?location=varthur">Varthur</a>
+                            <a href="/properties/?location=whitefield">Whitefield</a>
+                            <a href="/properties/?location=marathahalli">Marathahalli</a>
+                            <a href="/properties/?location=gunjur">Gunjur</a>
+                            <a href="/properties/?location=balagere">Balagere</a>
                         </div>
                     </div>
                 </div>
@@ -245,6 +262,84 @@
 
                 <div class="properties-grid" id="propertiesGrid">
                     
+                    <!-- Abhee Celestia -->
+                    <div class="property-card" data-builder="abhee" data-bhk="2,3,4" data-status="new launch" data-price="110">
+                        <div class="card-img-wrapper">
+                            <span class="badge">Abhee Ventures</span>
+                            <img src="../images/placeholder.jpg" alt="Abhee Celestia" loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Abhee Celestia</h3>
+                            <p class="card-location">📍 Sarjapur Road</p>
+                            <div class="card-features">
+                                <div class="feature-item">🛏️ 2, 3, 4 BHK</div>
+                                <div class="feature-item">🏗️ New Launch</div>
+                            </div>
+                            <div class="card-details">
+                                <div>
+                                    <span class="price-label">Starting From</span>
+                                    <span class="price">₹1.10 Cr*</span>
+                                </div>
+                            </div>
+                            <div class="card-actions">
+                                <a href="/properties/abhee-celestia/" class="btn-card btn-details">Details</a>
+                                <button class="btn-card btn-enquire" onclick="openModal('Abhee Celestia')">Enquire</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Abhee Silicon Terraces -->
+                    <div class="property-card" data-builder="abhee" data-bhk="2,3" data-status="under construction" data-price="95">
+                        <div class="card-img-wrapper">
+                            <span class="badge">Abhee Ventures</span>
+                            <img src="../images/placeholder.jpg" alt="Abhee Silicon Terraces" loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Abhee Silicon Terraces</h3>
+                            <p class="card-location">📍 Electronic City Phase 1</p>
+                            <div class="card-features">
+                                <div class="feature-item">🛏️ 2, 3 BHK</div>
+                                <div class="feature-item">🏗️ Under Const.</div>
+                            </div>
+                            <div class="card-details">
+                                <div>
+                                    <span class="price-label">Starting From</span>
+                                    <span class="price">₹95 L*</span>
+                                </div>
+                            </div>
+                            <div class="card-actions">
+                                <a href="/properties/abhee-silicon-terraces/" class="btn-card btn-details">Details</a>
+                                <button class="btn-card btn-enquire" onclick="openModal('Abhee Silicon Terraces')">Enquire</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Abhee New Dimension -->
+                    <div class="property-card" data-builder="abhee" data-bhk="2,3" data-status="new launch" data-price="105">
+                        <div class="card-img-wrapper">
+                            <span class="badge">Abhee Ventures</span>
+                            <img src="../images/placeholder.jpg" alt="Abhee New Dimension" loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Abhee New Dimension</h3>
+                            <p class="card-location">📍 HSR Layout Extension</p>
+                            <div class="card-features">
+                                <div class="feature-item">🛏️ 2, 3 BHK</div>
+                                <div class="feature-item">🏗️ New Launch</div>
+                            </div>
+                            <div class="card-details">
+                                <div>
+                                    <span class="price-label">Starting From</span>
+                                    <span class="price">₹1.05 Cr*</span>
+                                </div>
+                            </div>
+                            <div class="card-actions">
+                                <a href="/properties/abhee-new-dimension/" class="btn-card btn-details">Details</a>
+                                <button class="btn-card btn-enquire" onclick="openModal('Abhee New Dimension')">Enquire</button>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Godrej Woodscapes -->
                     <div class="property-card" data-builder="Godrej" data-bhk="2,3,4" data-status="New Launch" data-price="120">
                         <div class="card-img-wrapper">

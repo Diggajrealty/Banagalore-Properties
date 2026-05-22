@@ -8,6 +8,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const propertyCountSpan = document.getElementById('propertyCount');
     const propertiesGrid = document.getElementById('propertiesGrid');
 
+    // Read URL parameters for location filtering
+    const urlParams = new URLSearchParams(window.location.search);
+    const locationParam = urlParams.get('location');
+    if (locationParam && searchInput) {
+        searchInput.value = locationParam.replace(/-/g, ' ');
+    }
+
     function filterProperties() {
         const searchTerm = searchInput.value.toLowerCase();
         
