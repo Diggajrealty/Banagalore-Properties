@@ -226,9 +226,8 @@
                         <div style="margin-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 15px;">
                             <h4 style="color: var(--color-gold); font-size: 1.3rem; margin: 0; font-weight: 500;">Find Your Perfect Property</h4>
                         </div>
-                        <form class="filter-form" action="/properties/" method="GET" name="homepage-enquiry" data-netlify="true" netlify-honeypot="bot-field">
-    <input type="hidden" name="form-name" value="homepage-enquiry">
-    <input name="bot-field" style="display:none">
+                        <form class="filter-form" action="/properties/" method="GET">
+
                             <select name="builder" class="form-control">
                                 <option value="">Select Builder</option>
                                 <option value="godrej">Godrej Properties</option>
@@ -291,10 +290,62 @@
         });
     </script>
 
-    <!-- 2. Trust Bar -->
-    <div style="background: var(--color-gold); color: var(--color-dark); padding: 15px 0; text-align: center; font-weight: 700;">
-        7 Premium Builders &nbsp;|&nbsp; 20+ Exclusive Projects &nbsp;|&nbsp; 500+ Happy Families &nbsp;|&nbsp; RERA Verified
+    <!-- 2. Scrolling News Ticker -->
+    <div style="background: #0f0f14; border-top: 1px solid rgba(201,168,76,0.3); border-bottom: 1px solid rgba(201,168,76,0.3); padding: 11px 0; overflow: hidden; white-space: nowrap;">
+        <div class="pb-ticker-track">
+            <span class="pb-ticker-item">🏙️ Sarjapur Road property prices up 18% YoY — best time to invest</span>
+            <span class="pb-ticker-sep">✦</span>
+            <span class="pb-ticker-item">🏗️ Godrej Melange — exclusive pre-launch pricing available now</span>
+            <span class="pb-ticker-sep">✦</span>
+            <span class="pb-ticker-item">📍 Whitefield corridor emerging as Bangalore's top luxury address</span>
+            <span class="pb-ticker-sep">✦</span>
+            <span class="pb-ticker-item">💰 Home loan interest rates at 8.5% — EMIs never been more affordable</span>
+            <span class="pb-ticker-sep">✦</span>
+            <span class="pb-ticker-item">🏆 Prestige Park Grove — 80-acre township, limited inventory remaining</span>
+            <span class="pb-ticker-sep">✦</span>
+            <span class="pb-ticker-item">🚇 Namma Metro Phase 2 to boost East Bangalore property values by 25%+</span>
+            <span class="pb-ticker-sep">✦</span>
+            <span class="pb-ticker-item">🌿 Sobha Neopolis — IGBC Platinum rated, 3 &amp; 4 BHK luxury high-rise</span>
+            <span class="pb-ticker-sep">✦</span>
+            <span class="pb-ticker-item">📈 Bangalore ranked #1 city for real estate ROI in India — Knight Frank 2025</span>
+            <span class="pb-ticker-sep">✦</span>
+            <!-- Duplicate for seamless loop -->
+            <span class="pb-ticker-item">🏙️ Sarjapur Road property prices up 18% YoY — best time to invest</span>
+            <span class="pb-ticker-sep">✦</span>
+            <span class="pb-ticker-item">🏗️ Godrej Melange — exclusive pre-launch pricing available now</span>
+            <span class="pb-ticker-sep">✦</span>
+            <span class="pb-ticker-item">📍 Whitefield corridor emerging as Bangalore's top luxury address</span>
+            <span class="pb-ticker-sep">✦</span>
+            <span class="pb-ticker-item">💰 Home loan interest rates at 8.5% — EMIs never been more affordable</span>
+            <span class="pb-ticker-sep">✦</span>
+        </div>
     </div>
+    <style>
+        @keyframes pb-ticker-scroll {
+            0%   { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        .pb-ticker-track {
+            display: inline-block;
+            animation: pb-ticker-scroll 38s linear infinite;
+            white-space: nowrap;
+        }
+        .pb-ticker-track:hover { animation-play-state: paused; }
+        .pb-ticker-item {
+            display: inline-block;
+            color: rgba(245,240,232,0.85);
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.88rem;
+            font-weight: 500;
+            letter-spacing: 0.3px;
+            padding: 0 30px;
+        }
+        .pb-ticker-sep {
+            color: #C9A84C;
+            font-size: 0.75rem;
+            vertical-align: middle;
+        }
+    </style>
 
     <!-- 3. Exclusive Properties -->
     <section class="section section-light">

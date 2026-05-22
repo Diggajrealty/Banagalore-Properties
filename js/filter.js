@@ -8,12 +8,35 @@ document.addEventListener('DOMContentLoaded', () => {
     const propertyCountSpan = document.getElementById('propertyCount');
     const propertiesGrid = document.getElementById('propertiesGrid');
 
-    // Read URL parameters for location filtering
+    // Read URL parameters — support location, builder, and bhk from homepage search
     const urlParams = new URLSearchParams(window.location.search);
     const locationParam = urlParams.get('location');
+    const builderParam  = urlParams.get('builder');
+    const bhkParam      = urlParams.get('bhk');
+
+    // Pre-fill search box from ?location=
     if (locationParam && searchInput) {
         searchInput.value = locationParam.replace(/-/g, ' ');
     }
+
+    // Pre-check builder checkbox from ?builder=
+    if (builderParam) {
+        builderFilters.forEach(cb => {
+            if (cb.value.toLowerCase() === builderParam.toLowerCase()) {
+                cb.checked = true;
+            }
+        });
+    }
+
+    // Pre-check BHK checkbox from ?bhk=
+    if (bhkParam) {
+        bhkFilters.forEach(cb => {
+            if (cb.value.toLowerCase() === bhkParam.toLowerCase()) {
+                cb.checked = true;
+            }
+        });
+    }
+
 
     function filterProperties() {
         const searchTerm = searchInput.value.toLowerCase();
