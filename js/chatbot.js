@@ -16,7 +16,7 @@ function detectCurrentProperty() {
     const pathname = window.location.pathname;
     const match = pathname.match(/\/properties\/([^/]+)/);
     if (!match) return null;
-    const slug = match[1];
+    const slug = match[2];
     const propertyMap = {
         'godrej-vanantara':           'Godrej Vanantara',
         'godrej-melange':             'Godrej Melange',
