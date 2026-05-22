@@ -1,0 +1,48 @@
+# ── Python ────────────────────────────────────────────────
+*.py
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.spec
+
+# ── Node / Server ─────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── Environment & Secrets ─────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Leads data (sensitive) ────────────────────────────────
+leads.json
+
+# ── OS junk ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor ────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ── Inject / utility scripts (dev-only) ───────────────────
+inject_*.js
+connect_netlify_forms.js
+fix_*.js
+
+# ── Misc ──────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak

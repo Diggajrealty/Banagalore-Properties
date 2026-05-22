@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you-temp/
+Sitemap: https://propertiesbangalore.co.in/sitemap.xml
