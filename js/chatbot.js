@@ -147,15 +147,16 @@ function showWelcome() {
 
 I can see you're exploring **${CURRENT_PROPERTY}** — great choice! I can answer any questions about pricing, floor plans, amenities, and availability for this project.
 
-What would you like to know about **${CURRENT_PROPERTY}**?`;
+To connect you with our senior advisor and share exclusive pricing & floor plans right away, **may I get your name?** 😊`;
     } else {
         welcomeMsg = `Hi there! 👋 I'm your **Personal Property Assistant** for **Properties Bangalore**.
 
 I can help you find the perfect home from our 20+ exclusive luxury projects — Godrej, Prestige, Sobha, Brigade, and more!
 
-What are you looking for today?`;
+To connect you with our senior advisor and share exclusive pricing & floor plans right away, **may I get your name?** 😊`;
     }
-    appendBotMessage(welcomeMsg, QUICK_REPLIES);
+    appendBotMessage(welcomeMsg, []);
+    leadState = LEAD_STATE.ASKING_NAME;
 }
 
 function appendBotMessage(text, quickReplies = []) {
