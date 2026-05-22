@@ -329,7 +329,7 @@ _(Our senior advisor will personally call you within 15 minutes.)_`);
             formData.append('source', window.location.href);
             formData.append('timestamp', new Date().toISOString());
 
-            await fetch('/', {
+            await fetch(window.location.pathname, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                 body: formData.toString()

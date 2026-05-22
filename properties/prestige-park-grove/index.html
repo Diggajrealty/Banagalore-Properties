@@ -475,7 +475,7 @@
             <div class="enquiry-card">
                 <h3>Get Complete Details</h3>
                 <p style="margin-bottom: 20px; font-size: 0.95rem; color: #ddd;">Request the official high-res master plan, detailed cost sheet, and current availability.</p>
-                <form onsubmit="alert('Thank you! Our senior advisor will contact you within 15 minutes.'); event.preventDefault();" name="homepage-enquiry" data-netlify="true" netlify-honeypot="bot-field">
+                <form onsubmit="submitEnquiry(event)" name="homepage-enquiry" data-netlify="true" netlify-honeypot="bot-field">
     <input type="hidden" name="form-name" value="homepage-enquiry">
     <input name="bot-field" style="display:none">
                     <input type="text" placeholder="Full Name" required>
@@ -487,7 +487,7 @@
                         <option value="3bhk">3 BHK Luxury</option>
                         <option value="4bhk">4 BHK Exclusive</option>
                     </select>
-                    <button class="btn btn-primary">Request Details Instantly</button>
+                    <button type="submit" class="btn btn-primary">Request Details Instantly</button>
                 </form>
             </div>
             
@@ -606,6 +606,7 @@
         });
     });
 </script>
+<script src="../../js/form.js"></script>
 <script src="../../js/chatbot.js"></script>
 
 <!-- WhatsApp Floating Button -->
