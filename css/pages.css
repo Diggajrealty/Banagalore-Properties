@@ -262,7 +262,7 @@
 
 .btn-enquire {
     background: var(--color-gold);
-    color: var(--color-dark);
+    color: #111;
     border: 1px solid var(--color-gold);
 }
 

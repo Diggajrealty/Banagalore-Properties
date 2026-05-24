@@ -130,6 +130,10 @@ img {
   margin: var(--space-md) auto;
 }
 
+.section-title {
+  text-align: center;
+}
+
 .text-center { text-align: center; }
 .mt-1 { margin-top: var(--space-sm); }
 .mt-2 { margin-top: var(--space-md); }

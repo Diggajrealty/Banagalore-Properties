@@ -1,0 +1,3056 @@
+[
+  {
+    "file": "abhee-ventures/abhee-celestial-city/index.html",
+    "issues": [
+      "Title: Too long (66 chars, max 60)",
+      "Title: Missing primary keywords",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Abhee Celestial City'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2673 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 56,
+    "title": "Abhee Celestial City | Floor Plans, Pricing, Master Plan & Reviews",
+    "title_len": 66,
+    "meta_desc": "Explore Abhee Celestial City in Bangalore. Discover ultra-luxury residential high-rise apartments, sky gardens, exact pricing, master plan, and reviews.",
+    "meta_desc_len": 152,
+    "h1_tags": [
+      "Abhee Celestial City"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Abhee Celestial City",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2673,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (4x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "abhee-ventures/abhee-new-dimension/index.html",
+    "issues": [
+      "Title: Too long (65 chars, max 60)",
+      "Title: Missing primary keywords",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Abhee New Dimension'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2672 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 56,
+    "title": "Abhee New Dimension | Floor Plans, Pricing, Master Plan & Reviews",
+    "title_len": 65,
+    "meta_desc": "Explore Abhee New Dimension in Bangalore. Discover futuristic luxury residential apartments, vertical forests, exact pricing, master plan, and reviews.",
+    "meta_desc_len": 151,
+    "h1_tags": [
+      "Abhee New Dimension"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Abhee New Dimension",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2672,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (2x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "abhee-ventures/abhee-silicon-shine/index.html",
+    "issues": [
+      "Title: Too long (65 chars, max 60)",
+      "Title: Missing primary keywords",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Meta desc OK (160 chars)",
+      "Single H1: 'Abhee Silicon Shine'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2674 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 64,
+    "title": "Abhee Silicon Shine | Floor Plans, Pricing, Master Plan & Reviews",
+    "title_len": 65,
+    "meta_desc": "Explore Abhee Silicon Shine on Sarjapur Road, Bangalore. Discover modern IT-corridor luxury apartments, detailed floor plans, pricing, master plan, and reviews.",
+    "meta_desc_len": 160,
+    "h1_tags": [
+      "Abhee Silicon Shine"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Abhee Silicon Shine",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2674,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (4x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "abhee-ventures/index.html",
+    "issues": [
+      "Title: Too long (63 chars, max 60)",
+      "Meta desc: No target keywords found",
+      "MISSING JSON-LD schema markup"
+    ],
+    "warnings": [
+      "Only 4/15 target keywords found",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Canonical tag present",
+      "Robots meta tag present",
+      "Single H1: 'Abhee Ventures'",
+      "17 H2 tags present",
+      "All 3 images have alt attributes",
+      "Word count OK: 2687 words",
+      "57 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 64,
+    "title": "Abhee Ventures Properties in Bangalore | Ongoing & New Launches",
+    "title_len": 63,
+    "meta_desc": "Explore premium luxury residential projects by Abhee Ventures in Bangalore. Discover Abhee Celestial City, Abhee Silicon Shine, and Abhee New Dimension.",
+    "meta_desc_len": 152,
+    "h1_tags": [
+      "Abhee Ventures"
+    ],
+    "h2_count": 17,
+    "h2_tags": [
+      "Featured Projects by Abhee Ventures",
+      "About Abhee Ventures & Corporate Legacy",
+      "Leadership & Visionary Board",
+      "Our Core Philosophy",
+      "Architectural Masterpieces",
+      "Sustainability & Green Initiatives",
+      "Industry Awards & Accolades",
+      "Advanced Construction Technology",
+      "Uncompromising Quality Assurance",
+      "Exceptional Customer Journey"
+    ],
+    "images": {
+      "total": 3,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": [
+        {
+          "src": "../images/luxury_hero_bg.png",
+          "alt": "Abhee Celestial City",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/luxury_hero_bg.png",
+          "alt": "Abhee Silicon Shine",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/mana_dale.png",
+          "alt": "Abhee New Dimension",
+          "status": "\u2705"
+        }
+      ]
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 2687,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (3x)",
+      "premium residential (3x)",
+      "3 bhk (3x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore",
+      "2 bhk",
+      "4 bhk"
+    ],
+    "internal_link_count": 57
+  },
+  {
+    "file": "about/index.html",
+    "issues": [
+      "Title: MISSING title tag",
+      "Meta desc: MISSING meta description",
+      "MISSING canonical tag",
+      "MISSING H1 tag",
+      "MISSING JSON-LD schema markup",
+      "MISSING viewport meta tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Only 0 H2 tags \u2014 aim for 5+",
+      "Low word count (0) \u2014 aim for 800+",
+      "Only 0/15 target keywords found",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)",
+      "Few internal links (0) \u2014 aim for 10+",
+      "Missing charset declaration"
+    ],
+    "passes": [],
+    "score": 25,
+    "title": "",
+    "title_len": 0,
+    "meta_desc": "",
+    "meta_desc_len": 0,
+    "h1_tags": [],
+    "h2_count": 0,
+    "h2_tags": [],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 0,
+    "keywords_found": [],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "rera approved",
+      "sarjapur road",
+      "premium residential",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore",
+      "2 bhk",
+      "3 bhk",
+      "4 bhk"
+    ],
+    "internal_link_count": 0
+  },
+  {
+    "file": "blog/index.html",
+    "issues": [
+      "Title: MISSING title tag",
+      "Meta desc: MISSING meta description",
+      "MISSING canonical tag",
+      "MISSING H1 tag",
+      "MISSING JSON-LD schema markup",
+      "MISSING viewport meta tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Only 0 H2 tags \u2014 aim for 5+",
+      "Low word count (0) \u2014 aim for 800+",
+      "Only 0/15 target keywords found",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)",
+      "Few internal links (0) \u2014 aim for 10+",
+      "Missing charset declaration"
+    ],
+    "passes": [],
+    "score": 25,
+    "title": "",
+    "title_len": 0,
+    "meta_desc": "",
+    "meta_desc_len": 0,
+    "h1_tags": [],
+    "h2_count": 0,
+    "h2_tags": [],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 0,
+    "keywords_found": [],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "rera approved",
+      "sarjapur road",
+      "premium residential",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore",
+      "2 bhk",
+      "3 bhk",
+      "4 bhk"
+    ],
+    "internal_link_count": 0
+  },
+  {
+    "file": "brigade-group/brigade-cornerstone-utopia/index.html",
+    "issues": [
+      "Title: Too long (72 chars, max 60)",
+      "Title: Missing primary keywords",
+      "Meta desc: Too long (161 chars, max 160)",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Brigade Cornerstone Utopia'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2673 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 48,
+    "title": "Brigade Cornerstone Utopia | Floor Plans, Pricing, Master Plan & Reviews",
+    "title_len": 72,
+    "meta_desc": "Explore Brigade Cornerstone Utopia in Varthur Road, Bangalore. Discover premium luxury apartments, smart city amenities, exact pricing, master plan, and reviews.",
+    "meta_desc_len": 161,
+    "h1_tags": [
+      "Brigade Cornerstone Utopia"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Brigade Cornerstone Utopia",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2673,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (2x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "brigade-group/brigade-orchards/index.html",
+    "issues": [
+      "Title: Too long (62 chars, max 60)",
+      "Title: Missing primary keywords",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Brigade Orchards'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2647 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 56,
+    "title": "Brigade Orchards | Floor Plans, Pricing, Master Plan & Reviews",
+    "title_len": 62,
+    "meta_desc": "Explore Brigade Orchards in Devanahalli, Bangalore. Discover luxury townships, premium amenities, exact pricing, master plan, and reviews.",
+    "meta_desc_len": 138,
+    "h1_tags": [
+      "Brigade Orchards"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Brigade Orchards",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2647,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (2x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "brigade-group/brigade-sanctuary/index.html",
+    "issues": [
+      "Title: Too long (63 chars, max 60)",
+      "Title: Missing primary keywords",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Brigade Sanctuary'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2648 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 56,
+    "title": "Brigade Sanctuary | Floor Plans, Pricing, Master Plan & Reviews",
+    "title_len": 63,
+    "meta_desc": "Explore Brigade Sanctuary in Whitefield, Bangalore. Discover premium apartments, nature-integrated amenities, exact pricing, master plan, and reviews.",
+    "meta_desc_len": 150,
+    "h1_tags": [
+      "Brigade Sanctuary"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Brigade Sanctuary",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2648,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (2x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "brigade-group/index.html",
+    "issues": [
+      "Title: Too long (62 chars, max 60)",
+      "Meta desc: Too short (111 chars, min 120)",
+      "Meta desc: No target keywords found",
+      "MISSING JSON-LD schema markup"
+    ],
+    "warnings": [
+      "Only 4/15 target keywords found",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Canonical tag present",
+      "Robots meta tag present",
+      "Single H1: 'Brigade Group'",
+      "17 H2 tags present",
+      "All 3 images have alt attributes",
+      "Word count OK: 2684 words",
+      "57 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 56,
+    "title": "Brigade Group Properties in Bangalore | Ongoing & New Launches",
+    "title_len": 62,
+    "meta_desc": "Explore luxury residential projects by Brigade Group in Bangalore. View floor plans, pricing, and master plans.",
+    "meta_desc_len": 111,
+    "h1_tags": [
+      "Brigade Group"
+    ],
+    "h2_count": 17,
+    "h2_tags": [
+      "Featured Projects by Brigade Group",
+      "About Brigade Group & Corporate Legacy",
+      "Leadership & Visionary Board",
+      "Our Core Philosophy",
+      "Architectural Masterpieces",
+      "Sustainability & Green Initiatives",
+      "Industry Awards & Accolades",
+      "Advanced Construction Technology",
+      "Uncompromising Quality Assurance",
+      "Exceptional Customer Journey"
+    ],
+    "images": {
+      "total": 3,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": [
+        {
+          "src": "../images/brigade_cornerstone_utopia.png",
+          "alt": "Brigade Cornerstone Utopia",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/brigade_orchards.png",
+          "alt": "Brigade Orchards",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/luxury_hero_bg.png",
+          "alt": "Brigade Sanctuary",
+          "status": "\u2705"
+        }
+      ]
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 2684,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (1x)",
+      "premium residential (3x)",
+      "3 bhk (3x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore",
+      "2 bhk",
+      "4 bhk"
+    ],
+    "internal_link_count": 57
+  },
+  {
+    "file": "builders/abhee-ventures/index.html",
+    "issues": [
+      "Title: MISSING title tag",
+      "Meta desc: MISSING meta description",
+      "MISSING canonical tag",
+      "MISSING H1 tag",
+      "MISSING JSON-LD schema markup",
+      "MISSING viewport meta tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Only 0 H2 tags \u2014 aim for 5+",
+      "Low word count (0) \u2014 aim for 800+",
+      "Only 0/15 target keywords found",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)",
+      "Few internal links (0) \u2014 aim for 10+",
+      "Missing charset declaration"
+    ],
+    "passes": [],
+    "score": 25,
+    "title": "",
+    "title_len": 0,
+    "meta_desc": "",
+    "meta_desc_len": 0,
+    "h1_tags": [],
+    "h2_count": 0,
+    "h2_tags": [],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 0,
+    "keywords_found": [],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "rera approved",
+      "sarjapur road",
+      "premium residential",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore",
+      "2 bhk",
+      "3 bhk",
+      "4 bhk"
+    ],
+    "internal_link_count": 0
+  },
+  {
+    "file": "builders/brigade-group/index.html",
+    "issues": [
+      "Title: MISSING title tag",
+      "Meta desc: MISSING meta description",
+      "MISSING canonical tag",
+      "MISSING H1 tag",
+      "MISSING JSON-LD schema markup",
+      "MISSING viewport meta tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Only 0 H2 tags \u2014 aim for 5+",
+      "Low word count (0) \u2014 aim for 800+",
+      "Only 0/15 target keywords found",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)",
+      "Few internal links (0) \u2014 aim for 10+",
+      "Missing charset declaration"
+    ],
+    "passes": [],
+    "score": 25,
+    "title": "",
+    "title_len": 0,
+    "meta_desc": "",
+    "meta_desc_len": 0,
+    "h1_tags": [],
+    "h2_count": 0,
+    "h2_tags": [],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 0,
+    "keywords_found": [],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "rera approved",
+      "sarjapur road",
+      "premium residential",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore",
+      "2 bhk",
+      "3 bhk",
+      "4 bhk"
+    ],
+    "internal_link_count": 0
+  },
+  {
+    "file": "builders/dsr-group/index.html",
+    "issues": [
+      "Title: MISSING title tag",
+      "Meta desc: MISSING meta description",
+      "MISSING canonical tag",
+      "MISSING H1 tag",
+      "MISSING JSON-LD schema markup",
+      "MISSING viewport meta tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Only 0 H2 tags \u2014 aim for 5+",
+      "Low word count (0) \u2014 aim for 800+",
+      "Only 0/15 target keywords found",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)",
+      "Few internal links (0) \u2014 aim for 10+",
+      "Missing charset declaration"
+    ],
+    "passes": [],
+    "score": 25,
+    "title": "",
+    "title_len": 0,
+    "meta_desc": "",
+    "meta_desc_len": 0,
+    "h1_tags": [],
+    "h2_count": 0,
+    "h2_tags": [],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 0,
+    "keywords_found": [],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "rera approved",
+      "sarjapur road",
+      "premium residential",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore",
+      "2 bhk",
+      "3 bhk",
+      "4 bhk"
+    ],
+    "internal_link_count": 0
+  },
+  {
+    "file": "builders/godrej-properties/index.html",
+    "issues": [
+      "Title: MISSING title tag",
+      "Meta desc: MISSING meta description",
+      "MISSING canonical tag",
+      "MISSING H1 tag",
+      "MISSING JSON-LD schema markup",
+      "MISSING viewport meta tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Only 0 H2 tags \u2014 aim for 5+",
+      "Low word count (0) \u2014 aim for 800+",
+      "Only 0/15 target keywords found",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)",
+      "Few internal links (0) \u2014 aim for 10+",
+      "Missing charset declaration"
+    ],
+    "passes": [],
+    "score": 25,
+    "title": "",
+    "title_len": 0,
+    "meta_desc": "",
+    "meta_desc_len": 0,
+    "h1_tags": [],
+    "h2_count": 0,
+    "h2_tags": [],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 0,
+    "keywords_found": [],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "rera approved",
+      "sarjapur road",
+      "premium residential",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore",
+      "2 bhk",
+      "3 bhk",
+      "4 bhk"
+    ],
+    "internal_link_count": 0
+  },
+  {
+    "file": "builders/index.html",
+    "issues": [
+      "Title: MISSING title tag",
+      "Meta desc: MISSING meta description",
+      "MISSING canonical tag",
+      "MISSING H1 tag",
+      "MISSING JSON-LD schema markup",
+      "MISSING viewport meta tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Only 0 H2 tags \u2014 aim for 5+",
+      "Low word count (0) \u2014 aim for 800+",
+      "Only 0/15 target keywords found",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)",
+      "Few internal links (0) \u2014 aim for 10+",
+      "Missing charset declaration"
+    ],
+    "passes": [],
+    "score": 25,
+    "title": "",
+    "title_len": 0,
+    "meta_desc": "",
+    "meta_desc_len": 0,
+    "h1_tags": [],
+    "h2_count": 0,
+    "h2_tags": [],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 0,
+    "keywords_found": [],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "rera approved",
+      "sarjapur road",
+      "premium residential",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore",
+      "2 bhk",
+      "3 bhk",
+      "4 bhk"
+    ],
+    "internal_link_count": 0
+  },
+  {
+    "file": "builders/mana-projects/index.html",
+    "issues": [
+      "Title: MISSING title tag",
+      "Meta desc: MISSING meta description",
+      "MISSING canonical tag",
+      "MISSING H1 tag",
+      "MISSING JSON-LD schema markup",
+      "MISSING viewport meta tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Only 0 H2 tags \u2014 aim for 5+",
+      "Low word count (0) \u2014 aim for 800+",
+      "Only 0/15 target keywords found",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)",
+      "Few internal links (0) \u2014 aim for 10+",
+      "Missing charset declaration"
+    ],
+    "passes": [],
+    "score": 25,
+    "title": "",
+    "title_len": 0,
+    "meta_desc": "",
+    "meta_desc_len": 0,
+    "h1_tags": [],
+    "h2_count": 0,
+    "h2_tags": [],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 0,
+    "keywords_found": [],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "rera approved",
+      "sarjapur road",
+      "premium residential",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore",
+      "2 bhk",
+      "3 bhk",
+      "4 bhk"
+    ],
+    "internal_link_count": 0
+  },
+  {
+    "file": "builders/prestige-group/index.html",
+    "issues": [
+      "Title: MISSING title tag",
+      "Meta desc: MISSING meta description",
+      "MISSING canonical tag",
+      "MISSING H1 tag",
+      "MISSING JSON-LD schema markup",
+      "MISSING viewport meta tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Only 0 H2 tags \u2014 aim for 5+",
+      "Low word count (0) \u2014 aim for 800+",
+      "Only 0/15 target keywords found",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)",
+      "Few internal links (0) \u2014 aim for 10+",
+      "Missing charset declaration"
+    ],
+    "passes": [],
+    "score": 25,
+    "title": "",
+    "title_len": 0,
+    "meta_desc": "",
+    "meta_desc_len": 0,
+    "h1_tags": [],
+    "h2_count": 0,
+    "h2_tags": [],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 0,
+    "keywords_found": [],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "rera approved",
+      "sarjapur road",
+      "premium residential",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore",
+      "2 bhk",
+      "3 bhk",
+      "4 bhk"
+    ],
+    "internal_link_count": 0
+  },
+  {
+    "file": "builders/sobha-limited/index.html",
+    "issues": [
+      "Title: MISSING title tag",
+      "Meta desc: MISSING meta description",
+      "MISSING canonical tag",
+      "MISSING H1 tag",
+      "MISSING JSON-LD schema markup",
+      "MISSING viewport meta tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Only 0 H2 tags \u2014 aim for 5+",
+      "Low word count (0) \u2014 aim for 800+",
+      "Only 0/15 target keywords found",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)",
+      "Few internal links (0) \u2014 aim for 10+",
+      "Missing charset declaration"
+    ],
+    "passes": [],
+    "score": 25,
+    "title": "",
+    "title_len": 0,
+    "meta_desc": "",
+    "meta_desc_len": 0,
+    "h1_tags": [],
+    "h2_count": 0,
+    "h2_tags": [],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 0,
+    "keywords_found": [],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "rera approved",
+      "sarjapur road",
+      "premium residential",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore",
+      "2 bhk",
+      "3 bhk",
+      "4 bhk"
+    ],
+    "internal_link_count": 0
+  },
+  {
+    "file": "contact/index.html",
+    "issues": [
+      "Title: MISSING title tag",
+      "Meta desc: MISSING meta description",
+      "MISSING canonical tag",
+      "MISSING H1 tag",
+      "MISSING JSON-LD schema markup",
+      "MISSING viewport meta tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Only 0 H2 tags \u2014 aim for 5+",
+      "Low word count (0) \u2014 aim for 800+",
+      "Only 0/15 target keywords found",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)",
+      "Few internal links (0) \u2014 aim for 10+",
+      "Missing charset declaration"
+    ],
+    "passes": [],
+    "score": 25,
+    "title": "",
+    "title_len": 0,
+    "meta_desc": "",
+    "meta_desc_len": 0,
+    "h1_tags": [],
+    "h2_count": 0,
+    "h2_tags": [],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 0,
+    "keywords_found": [],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "rera approved",
+      "sarjapur road",
+      "premium residential",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore",
+      "2 bhk",
+      "3 bhk",
+      "4 bhk"
+    ],
+    "internal_link_count": 0
+  },
+  {
+    "file": "dsr-group/dsr-parkway/index.html",
+    "issues": [
+      "Title: Too long (78 chars, max 60)",
+      "Meta desc: Too long (166 chars, max 160)",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Dsr Parkway'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2653 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 56,
+    "title": "Dsr Parkway | Detailed Floor Plans, Pricing, Master Plan & Reviews | Bangalore",
+    "title_len": 78,
+    "meta_desc": "Get complete, in-depth details about Dsr Parkway. Review floor plans, massive master plan details, connectivity, exact pricing, and comprehensive lifestyle amenities.",
+    "meta_desc_len": 166,
+    "h1_tags": [
+      "Dsr Parkway"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Dsr Parkway",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2653,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (4x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "dsr-group/dsr-the-address/index.html",
+    "issues": [
+      "Title: Too long (82 chars, max 60)",
+      "Meta desc: Too long (170 chars, max 160)",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Dsr The Address'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2676 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 56,
+    "title": "Dsr The Address | Detailed Floor Plans, Pricing, Master Plan & Reviews | Bangalore",
+    "title_len": 82,
+    "meta_desc": "Get complete, in-depth details about Dsr The Address. Review floor plans, massive master plan details, connectivity, exact pricing, and comprehensive lifestyle amenities.",
+    "meta_desc_len": 170,
+    "h1_tags": [
+      "Dsr The Address"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Dsr The Address",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2676,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (4x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "dsr-group/index.html",
+    "issues": [
+      "Meta desc: No target keywords found",
+      "MISSING JSON-LD schema markup"
+    ],
+    "warnings": [
+      "Only 4/15 target keywords found",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Title OK (58 chars)",
+      "Canonical tag present",
+      "Robots meta tag present",
+      "Single H1: 'DSR Group'",
+      "17 H2 tags present",
+      "All 2 images have alt attributes",
+      "Word count OK: 2677 words",
+      "56 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 72,
+    "title": "DSR Group Properties in Bangalore | Ongoing & New Launches",
+    "title_len": 58,
+    "meta_desc": "Explore luxury residential projects by DSR Group in Bangalore. View floor plans, pricing, and master plans for DSR Parkway and DSR The Address.",
+    "meta_desc_len": 143,
+    "h1_tags": [
+      "DSR Group"
+    ],
+    "h2_count": 17,
+    "h2_tags": [
+      "Featured Projects by DSR Group",
+      "About DSR Group & Corporate Legacy",
+      "Leadership & Visionary Board",
+      "Our Core Philosophy",
+      "Architectural Masterpieces",
+      "Sustainability & Green Initiatives",
+      "Industry Awards & Accolades",
+      "Advanced Construction Technology",
+      "Uncompromising Quality Assurance",
+      "Exceptional Customer Journey"
+    ],
+    "images": {
+      "total": 2,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": [
+        {
+          "src": "../images/dsr_the_address.png",
+          "alt": "DSR The Address",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/dsr_parkway.png",
+          "alt": "DSR Parkway",
+          "status": "\u2705"
+        }
+      ]
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 2677,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (3x)",
+      "premium residential (4x)",
+      "3 bhk (2x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore",
+      "2 bhk",
+      "4 bhk"
+    ],
+    "internal_link_count": 56
+  },
+  {
+    "file": "godrej-properties/godrej-melange/index.html",
+    "issues": [
+      "Title: Missing primary keywords",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Godrej Melange'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2650 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 64,
+    "title": "Godrej Melange | Floor Plans, Pricing, Master Plan & Reviews",
+    "title_len": 60,
+    "meta_desc": "Explore Godrej Melange in Bangalore. Discover premium luxury skyscrapers, detailed floor plans, pricing, master plan, and reviews.",
+    "meta_desc_len": 130,
+    "h1_tags": [
+      "Godrej Melange"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Godrej Melange",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2650,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (4x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "godrej-properties/godrej-splendour/index.html",
+    "issues": [
+      "Title: Too long (62 chars, max 60)",
+      "Title: Missing primary keywords",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Godrej Splendour'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2648 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 56,
+    "title": "Godrej Splendour | Floor Plans, Pricing, Master Plan & Reviews",
+    "title_len": 62,
+    "meta_desc": "Explore Godrej Splendour in Whitefield, Bangalore. Discover contemporary high-rise apartments, resort-style amenities, exact pricing, master plan, and reviews.",
+    "meta_desc_len": 159,
+    "h1_tags": [
+      "Godrej Splendour"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Godrej Splendour",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2648,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (2x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "godrej-properties/godrej-vanantara/index.html",
+    "issues": [
+      "Title: Too long (62 chars, max 60)",
+      "Title: Missing primary keywords",
+      "Meta desc: Too long (163 chars, max 160)",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Godrej Vanantara'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2649 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 48,
+    "title": "Godrej Vanantara | Floor Plans, Pricing, Master Plan & Reviews",
+    "title_len": 62,
+    "meta_desc": "Explore Godrej Vanantara in Sarjapur, Bangalore. Discover premium luxury apartments and villas, nature-inspired amenities, exact pricing, master plan, and reviews.",
+    "meta_desc_len": 163,
+    "h1_tags": [
+      "Godrej Vanantara"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Godrej Vanantara",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2649,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (2x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "godrej-properties/godrej-woodscapes/index.html",
+    "issues": [
+      "Title: Too long (63 chars, max 60)",
+      "Title: Missing primary keywords",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Godrej Woodscapes'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2650 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 56,
+    "title": "Godrej Woodscapes | Floor Plans, Pricing, Master Plan & Reviews",
+    "title_len": 63,
+    "meta_desc": "Explore Godrej Woodscapes in Budigere Cross, Bangalore. Discover luxury apartments, tranquil forested themes, exact pricing, master plan, and reviews.",
+    "meta_desc_len": 150,
+    "h1_tags": [
+      "Godrej Woodscapes"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Godrej Woodscapes",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2650,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (2x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "godrej-properties/index.html",
+    "issues": [
+      "Title: Too long (66 chars, max 60)",
+      "Meta desc: Too short (115 chars, min 120)",
+      "Meta desc: No target keywords found",
+      "MISSING JSON-LD schema markup"
+    ],
+    "warnings": [
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Canonical tag present",
+      "Robots meta tag present",
+      "Single H1: 'Godrej Properties'",
+      "17 H2 tags present",
+      "All 4 images have alt attributes",
+      "Word count OK: 2712 words",
+      "5/15 target keywords present",
+      "58 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 59,
+    "title": "Godrej Properties Properties in Bangalore | Ongoing & New Launches",
+    "title_len": 66,
+    "meta_desc": "Explore luxury residential projects by Godrej Properties in Bangalore. View floor plans, pricing, and master plans.",
+    "meta_desc_len": 115,
+    "h1_tags": [
+      "Godrej Properties"
+    ],
+    "h2_count": 17,
+    "h2_tags": [
+      "Featured Projects by Godrej Properties",
+      "About Godrej Properties & Corporate Legacy",
+      "Leadership & Visionary Board",
+      "Our Core Philosophy",
+      "Architectural Masterpieces",
+      "Sustainability & Green Initiatives",
+      "Industry Awards & Accolades",
+      "Advanced Construction Technology",
+      "Uncompromising Quality Assurance",
+      "Exceptional Customer Journey"
+    ],
+    "images": {
+      "total": 4,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": [
+        {
+          "src": "../images/godrej_melange.png",
+          "alt": "Godrej Melange",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/godrej_splendour.png",
+          "alt": "Godrej Splendour",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/godrej_vanantara.png",
+          "alt": "Godrej Vanantara",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/godrej_woodscapes.png",
+          "alt": "Godrej Woodscapes",
+          "status": "\u2705"
+        }
+      ]
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 2712,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (3x)",
+      "premium residential (3x)",
+      "3 bhk (3x)",
+      "4 bhk (1x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore",
+      "2 bhk"
+    ],
+    "internal_link_count": 58
+  },
+  {
+    "file": "index.html",
+    "issues": [
+      "Title: Too long (87 chars, max 60)",
+      "Meta desc: Too long (259 chars, max 160)"
+    ],
+    "warnings": [
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Canonical tag present",
+      "Robots meta tag present",
+      "Single H1: 'Luxury Living in Bangalore'",
+      "14 H2 tags present",
+      "JSON-LD schema present: LocalBusiness",
+      "Word count OK: 2632 words",
+      "6/15 target keywords present",
+      "54 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 75,
+    "title": "Properties in Bangalore | Luxury Flats, Apartments & Villas | propertiesbangalore.co.in",
+    "title_len": 87,
+    "meta_desc": "Explore the best properties in Bangalore \u2014 luxury flats, premium apartments & gated villas from top builders like Godrej, Prestige, Sobha & Brigade. New launches, under-construction & ready-to-move properties across Sarjapur Road, Whitefield & East Bangalore.",
+    "meta_desc_len": 259,
+    "h1_tags": [
+      "Luxury Living in Bangalore"
+    ],
+    "h2_count": 14,
+    "h2_tags": [
+      "Exclusive Handpicked Properties",
+      "Why Invest in Bangalore's Real Estate?",
+      "Market Trends & Asset Appreciation",
+      "Unmatched City-Wide Connectivity",
+      "Proximity to Massive Employment Hubs",
+      "World-Class Educational Infrastructure",
+      "Top-Tier Healthcare & Medical Facilities",
+      "A Vibrant, Cosmopolitan Urban Lifestyle",
+      "Our Trusted, Grade-A Developer Partners",
+      "Success Stories & Client Testimonials"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "LocalBusiness"
+    ],
+    "word_count": 2632,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (6x)",
+      "premium residential (1x)",
+      "2 bhk (1x)",
+      "3 bhk (4x)",
+      "4 bhk (3x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 54
+  },
+  {
+    "file": "mana-projects/index.html",
+    "issues": [
+      "Title: Too long (62 chars, max 60)",
+      "Meta desc: Too short (111 chars, min 120)",
+      "Meta desc: No target keywords found",
+      "MISSING JSON-LD schema markup"
+    ],
+    "warnings": [
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Canonical tag present",
+      "Robots meta tag present",
+      "Single H1: 'Mana Projects'",
+      "17 H2 tags present",
+      "All 2 images have alt attributes",
+      "Word count OK: 2671 words",
+      "5/15 target keywords present",
+      "56 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 59,
+    "title": "Mana Projects Properties in Bangalore | Ongoing & New Launches",
+    "title_len": 62,
+    "meta_desc": "Explore luxury residential projects by Mana Projects in Bangalore. View floor plans, pricing, and master plans.",
+    "meta_desc_len": 111,
+    "h1_tags": [
+      "Mana Projects"
+    ],
+    "h2_count": 17,
+    "h2_tags": [
+      "Featured Projects by Mana Projects",
+      "About Mana Projects & Corporate Legacy",
+      "Leadership & Visionary Board",
+      "Our Core Philosophy",
+      "Architectural Masterpieces",
+      "Sustainability & Green Initiatives",
+      "Industry Awards & Accolades",
+      "Advanced Construction Technology",
+      "Uncompromising Quality Assurance",
+      "Exceptional Customer Journey"
+    ],
+    "images": {
+      "total": 2,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": [
+        {
+          "src": "../images/mana_dale.png",
+          "alt": "Mana Dale",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/mana_tropicale.png",
+          "alt": "Mana Tropicale",
+          "status": "\u2705"
+        }
+      ]
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 2671,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (3x)",
+      "premium residential (3x)",
+      "3 bhk (1x)",
+      "4 bhk (1x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore",
+      "2 bhk"
+    ],
+    "internal_link_count": 56
+  },
+  {
+    "file": "mana-projects/mana-dale/index.html",
+    "issues": [
+      "Title: Too long (76 chars, max 60)",
+      "Meta desc: Too long (164 chars, max 160)",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Mana Dale'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2661 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 56,
+    "title": "Mana Dale | Detailed Floor Plans, Pricing, Master Plan & Reviews | Bangalore",
+    "title_len": 76,
+    "meta_desc": "Get complete, in-depth details about Mana Dale. Review floor plans, massive master plan details, connectivity, exact pricing, and comprehensive lifestyle amenities.",
+    "meta_desc_len": 164,
+    "h1_tags": [
+      "Mana Dale"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Mana Dale",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2661,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (5x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "mana-projects/mana-tropicale/index.html",
+    "issues": [
+      "Title: Too long (81 chars, max 60)",
+      "Meta desc: Too long (169 chars, max 160)",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Mana Tropicale'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2663 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 56,
+    "title": "Mana Tropicale | Detailed Floor Plans, Pricing, Master Plan & Reviews | Bangalore",
+    "title_len": 81,
+    "meta_desc": "Get complete, in-depth details about Mana Tropicale. Review floor plans, massive master plan details, connectivity, exact pricing, and comprehensive lifestyle amenities.",
+    "meta_desc_len": 169,
+    "h1_tags": [
+      "Mana Tropicale"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Mana Tropicale",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2663,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (2x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "prestige-group/index.html",
+    "issues": [
+      "Title: Too long (63 chars, max 60)",
+      "Meta desc: Too short (112 chars, min 120)",
+      "Meta desc: No target keywords found",
+      "MISSING JSON-LD schema markup"
+    ],
+    "warnings": [
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Canonical tag present",
+      "Robots meta tag present",
+      "Single H1: 'Prestige Group'",
+      "17 H2 tags present",
+      "All 3 images have alt attributes",
+      "Word count OK: 2692 words",
+      "5/15 target keywords present",
+      "57 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 59,
+    "title": "Prestige Group Properties in Bangalore | Ongoing & New Launches",
+    "title_len": 63,
+    "meta_desc": "Explore luxury residential projects by Prestige Group in Bangalore. View floor plans, pricing, and master plans.",
+    "meta_desc_len": 112,
+    "h1_tags": [
+      "Prestige Group"
+    ],
+    "h2_count": 17,
+    "h2_tags": [
+      "Featured Projects by Prestige Group",
+      "About Prestige Group & Corporate Legacy",
+      "Leadership & Visionary Board",
+      "Our Core Philosophy",
+      "Architectural Masterpieces",
+      "Sustainability & Green Initiatives",
+      "Industry Awards & Accolades",
+      "Advanced Construction Technology",
+      "Uncompromising Quality Assurance",
+      "Exceptional Customer Journey"
+    ],
+    "images": {
+      "total": 3,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": [
+        {
+          "src": "../images/prestige_lavender_fields.png",
+          "alt": "Prestige Lavender Fields",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/luxury_hero_bg.png",
+          "alt": "Prestige Park Grove",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/prestige_primrose_hills.png",
+          "alt": "Prestige Primrose Hills",
+          "status": "\u2705"
+        }
+      ]
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 2692,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (1x)",
+      "premium residential (3x)",
+      "2 bhk (1x)",
+      "4 bhk (2x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore",
+      "3 bhk"
+    ],
+    "internal_link_count": 57
+  },
+  {
+    "file": "prestige-group/prestige-lavender-fields/index.html",
+    "issues": [
+      "Title: Too long (70 chars, max 60)",
+      "Title: Missing primary keywords",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Prestige Lavender Fields'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2671 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 56,
+    "title": "Prestige Lavender Fields | Floor Plans, Pricing, Master Plan & Reviews",
+    "title_len": 70,
+    "meta_desc": "Explore Prestige Lavender Fields in Whitefield, Bangalore. Discover premium luxury apartments, vibrant amenities, exact pricing, master plan, and reviews.",
+    "meta_desc_len": 154,
+    "h1_tags": [
+      "Prestige Lavender Fields"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Prestige Lavender Fields",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2671,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (2x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "prestige-group/prestige-park-grove/index.html",
+    "issues": [
+      "Title: Too long (65 chars, max 60)",
+      "Title: Missing primary keywords",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Prestige Park Grove'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2673 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 56,
+    "title": "Prestige Park Grove | Floor Plans, Pricing, Master Plan & Reviews",
+    "title_len": 65,
+    "meta_desc": "Explore Prestige Park Grove in Whitefield, Bangalore. Discover premium township living, extensive greenery, exact pricing, master plan, and reviews.",
+    "meta_desc_len": 148,
+    "h1_tags": [
+      "Prestige Park Grove"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Prestige Park Grove",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2673,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (2x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "prestige-group/prestige-primrose-hills/index.html",
+    "issues": [
+      "Title: Too long (69 chars, max 60)",
+      "Title: Missing primary keywords",
+      "Meta desc: Too long (162 chars, max 160)",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Prestige Primrose Hills'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2673 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 48,
+    "title": "Prestige Primrose Hills | Floor Plans, Pricing, Master Plan & Reviews",
+    "title_len": 69,
+    "meta_desc": "Explore Prestige Primrose Hills in Kanakapura Road, Bangalore. Discover affordable premium apartments, serene landscapes, exact pricing, master plan, and reviews.",
+    "meta_desc_len": 162,
+    "h1_tags": [
+      "Prestige Primrose Hills"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Prestige Primrose Hills",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2673,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (2x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "properties/index.html",
+    "issues": [
+      "Title: Too long (76 chars, max 60)",
+      "MISSING JSON-LD schema markup"
+    ],
+    "warnings": [
+      "Only 1 H2 tags \u2014 aim for 5+",
+      "Only 4/15 target keywords found",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Meta desc OK (160 chars)",
+      "Canonical tag present",
+      "Robots meta tag present",
+      "Single H1: 'Premium Properties'",
+      "All 17 images have alt attributes",
+      "Word count OK: 1094 words",
+      "og:title present",
+      "90 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 75,
+    "title": "All Properties in Bangalore | Flats & Apartments | propertiesbangalore.co.in",
+    "title_len": 76,
+    "meta_desc": "Browse all premium properties, flats, apartments and villas in Bangalore. Use our filters to find the perfect home by builder, BHK, and budget on Sarjapur Road.",
+    "meta_desc_len": 160,
+    "h1_tags": [
+      "Premium Properties"
+    ],
+    "h2_count": 1,
+    "h2_tags": [
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 17,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": [
+        {
+          "src": "../images/placeholder.jpg",
+          "alt": "Abhee Celestial City",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/placeholder.jpg",
+          "alt": "Abhee Silicon Shine",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/placeholder.jpg",
+          "alt": "Abhee New Dimension",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/placeholder.jpg",
+          "alt": "Godrej Woodscapes",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/placeholder.jpg",
+          "alt": "Godrej Splendour",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/placeholder.jpg",
+          "alt": "Sobha Neopolis",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/placeholder.jpg",
+          "alt": "Sobha Dream Acres",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/placeholder.jpg",
+          "alt": "DSR The Address",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/placeholder.jpg",
+          "alt": "DSR Parkway",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/placeholder.jpg",
+          "alt": "Abhee Celestial City",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/placeholder.jpg",
+          "alt": "Abhee Silicon Shine",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/placeholder.jpg",
+          "alt": "Brigade Cornerstone Utopia",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/placeholder.jpg",
+          "alt": "Brigade Orchards",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/placeholder.jpg",
+          "alt": "Prestige Lavender Fields",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/placeholder.jpg",
+          "alt": "Prestige Primrose Hills",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/placeholder.jpg",
+          "alt": "Mana Dale",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/placeholder.jpg",
+          "alt": "Mana Tropicale",
+          "status": "\u2705"
+        }
+      ]
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 1094,
+    "keywords_found": [
+      "sarjapur road (13x)",
+      "2 bhk (4x)",
+      "3 bhk (9x)",
+      "4 bhk (7x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "rera approved",
+      "premium residential",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 90
+  },
+  {
+    "file": "sobha-limited/index.html",
+    "issues": [
+      "Title: Too long (62 chars, max 60)",
+      "Meta desc: Too short (111 chars, min 120)",
+      "Meta desc: No target keywords found",
+      "MISSING JSON-LD schema markup"
+    ],
+    "warnings": [
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Canonical tag present",
+      "Robots meta tag present",
+      "Single H1: 'Sobha Limited'",
+      "17 H2 tags present",
+      "All 3 images have alt attributes",
+      "Word count OK: 2681 words",
+      "6/15 target keywords present",
+      "57 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 59,
+    "title": "Sobha Limited Properties in Bangalore | Ongoing & New Launches",
+    "title_len": 62,
+    "meta_desc": "Explore luxury residential projects by Sobha Limited in Bangalore. View floor plans, pricing, and master plans.",
+    "meta_desc_len": 111,
+    "h1_tags": [
+      "Sobha Limited"
+    ],
+    "h2_count": 17,
+    "h2_tags": [
+      "Featured Projects by Sobha Limited",
+      "About Sobha Limited & Corporate Legacy",
+      "Leadership & Visionary Board",
+      "Our Core Philosophy",
+      "Architectural Masterpieces",
+      "Sustainability & Green Initiatives",
+      "Industry Awards & Accolades",
+      "Advanced Construction Technology",
+      "Uncompromising Quality Assurance",
+      "Exceptional Customer Journey"
+    ],
+    "images": {
+      "total": 3,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": [
+        {
+          "src": "../images/sobha_dream_acres.png",
+          "alt": "Sobha Dream Acres",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/sobha_neopolis.png",
+          "alt": "Sobha Neopolis",
+          "status": "\u2705"
+        },
+        {
+          "src": "../images/sobha_one_world.png",
+          "alt": "Sobha One World",
+          "status": "\u2705"
+        }
+      ]
+    },
+    "schema_count": 0,
+    "schema_types": [],
+    "word_count": 2681,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (1x)",
+      "premium residential (3x)",
+      "2 bhk (1x)",
+      "3 bhk (1x)",
+      "4 bhk (1x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 57
+  },
+  {
+    "file": "sobha-limited/sobha-dream-acres/index.html",
+    "issues": [
+      "Title: Too long (63 chars, max 60)",
+      "Title: Missing primary keywords",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Sobha Dream Acres'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2672 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 56,
+    "title": "Sobha Dream Acres | Floor Plans, Pricing, Master Plan & Reviews",
+    "title_len": 63,
+    "meta_desc": "Explore Sobha Dream Acres in Panathur, Bangalore. Discover premium apartments, sprawling amenities, exact pricing, master plan, and reviews.",
+    "meta_desc_len": 140,
+    "h1_tags": [
+      "Sobha Dream Acres"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Sobha Dream Acres",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2672,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (2x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "sobha-limited/sobha-neopolis/index.html",
+    "issues": [
+      "Title: Missing primary keywords",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Sobha Neopolis'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2648 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 64,
+    "title": "Sobha Neopolis | Floor Plans, Pricing, Master Plan & Reviews",
+    "title_len": 60,
+    "meta_desc": "Explore Sobha Neopolis in Panathur, Bangalore. Discover ultra-luxury Greek-themed apartments, expansive amenities, exact pricing, master plan, and reviews.",
+    "meta_desc_len": 155,
+    "h1_tags": [
+      "Sobha Neopolis"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Sobha Neopolis",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2648,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (2x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  },
+  {
+    "file": "sobha-limited/sobha-one-world/index.html",
+    "issues": [
+      "Title: Too long (61 chars, max 60)",
+      "Title: Missing primary keywords",
+      "Meta desc: No target keywords found",
+      "MISSING canonical tag"
+    ],
+    "warnings": [
+      "Missing robots meta tag",
+      "Missing og:title (Open Graph)",
+      "Missing og:description (Open Graph)",
+      "Missing og:image (Open Graph)"
+    ],
+    "passes": [
+      "Single H1: 'Sobha One World'",
+      "9 H2 tags present",
+      "JSON-LD schema present: RealEstateListing, LocalBusiness",
+      "Word count OK: 2671 words",
+      "6/15 target keywords present",
+      "64 internal links present",
+      "Viewport meta tag present",
+      "Charset declared"
+    ],
+    "score": 56,
+    "title": "Sobha One World | Floor Plans, Pricing, Master Plan & Reviews",
+    "title_len": 61,
+    "meta_desc": "Explore Sobha One World in Hoskote, Bangalore. Discover international-style premium apartments, extensive amenities, exact pricing, master plan, and reviews.",
+    "meta_desc_len": 157,
+    "h1_tags": [
+      "Sobha One World"
+    ],
+    "h2_count": 9,
+    "h2_tags": [
+      "Project Overview & Masterpiece Design",
+      "Floor Plans, Configurations & Pricing Strategy",
+      "Unrivaled 5-Star Amenities & Lifestyle",
+      "Location Advantage & Hyper-Connectivity",
+      "Elite Specifications & Construction Quality",
+      "Interactive EMI Calculator",
+      "Investment Analysis & Capital Appreciation (ROI)",
+      "Frequently Asked Questions about Sobha One World",
+      "Market Insights & Research"
+    ],
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0,
+      "details": []
+    },
+    "schema_count": 1,
+    "schema_types": [
+      "RealEstateListing",
+      "LocalBusiness"
+    ],
+    "word_count": 2671,
+    "keywords_found": [
+      "rera approved (1x)",
+      "sarjapur road (2x)",
+      "premium residential (1x)",
+      "2 bhk (4x)",
+      "3 bhk (4x)",
+      "4 bhk (4x)"
+    ],
+    "keywords_missing": [
+      "luxury apartments bangalore",
+      "luxury flats bangalore",
+      "new launch bangalore",
+      "luxury gated community",
+      "buy apartment bangalore",
+      "real estate bangalore",
+      "apartments for sale bangalore",
+      "pre launch projects bangalore",
+      "best builders bangalore"
+    ],
+    "internal_link_count": 64
+  }
+]
