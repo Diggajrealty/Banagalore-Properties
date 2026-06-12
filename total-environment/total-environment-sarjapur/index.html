@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total Environment Sarjapur | Luxury Biophilic Township</title>
+    <meta name="description" content="Total Environment Sarjapur is a 30-acre biophilic luxury township featuring villaments and massive terrace gardens.">
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="../../css/components.css">
+    <link rel="stylesheet" href="../../css/chatbot.css">
+    
+    <!-- FONTS from Reference Design -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* ABHEE REFERENCE CSS VARIABLES & BASE */
+        :root {
+            --bg-dark: #FAFAFA;
+            --bg-panel: #FFFFFF;
+            --gold: #A67C00;
+            --gold-light: #C9A84C;
+            --text-main: #1A1A1A;
+            --text-muted: #666666;
+            --font-display: 'Cinzel', serif;
+            --font-body: 'Cormorant Garamond', serif;
+            --font-ui: 'Jost', sans-serif;
+            --padding-section: 100px 5%;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            font-family: var(--font-body);
+            line-height: 1.8;
+            overflow-x: hidden;
+            background-image:
+                linear-gradient(rgba(166, 124, 0, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(166, 124, 0, 0.05) 1px, transparent 1px);
+            background-size: 60px 60px;
+        }
+
+        .header { background: #111 !important; padding: 15px 0; }
+        .header .logo { font-family: var(--font-display); color: var(--gold) !important; font-size: 1.8rem; text-decoration: none; }
+        .nav-links a { font-family: var(--font-ui); color: #fff !important; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px; }
+
+        /* HERO SECTION */
+        .hero {
+            position: relative;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            padding: 0 5%;
+            overflow: hidden;
+        }
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+            background: url('../../images/total_env_sarjapur.png') no-repeat center center/cover;
+        }
+        .hero-bg::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to right, rgba(10, 10, 10, 0.85) 0%, rgba(10, 10, 10, 0.6) 50%, rgba(10, 10, 10, 0.3) 100%);
+        }
+        .hero-content { position: relative; z-index: 2; width: 100%; }
+        .hero-grid-inner {
+            display: grid; grid-template-columns: 1fr 450px; gap: 60px; align-items: center; max-width: 1400px; margin: 0 auto;
+        }
+        .hero-title { font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 4.5rem); color: var(--gold); line-height: 1.1; margin-bottom: 20px; }
+        .hero-sub { font-family: var(--font-ui); font-size: 1.25rem; color: rgba(255,255,255,0.8); font-weight: 300; margin-bottom: 30px; }
+        .badge-wrap { display: flex; gap: 15px; margin-bottom: 30px; }
+        .badge {
+            font-family: var(--font-ui); padding: 6px 15px; border: 1px solid var(--gold); color: var(--gold); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; border-radius: 50px;
+        }
+        .badge.filled { background: var(--gold); color: #111; font-weight: 600; }
+        
+        .hero-form-panel {
+            background: rgba(255, 255, 255, 0.96); border: 1px solid rgba(166, 124, 0, 0.3); padding: 40px 30px; backdrop-filter: blur(10px); border-radius: 4px;
+        }
+        .hero-form-panel h3 { font-family: var(--font-display); color: var(--gold); font-size: 1.8rem; margin-bottom: 15px; text-align: center; }
+        .hero-form-panel p { font-family: var(--font-ui); text-align: center; font-size: 0.9rem; margin-bottom: 25px; color: var(--text-muted); }
+
+        /* GOLD TICKER */
+        .ticker-wrap { background: var(--gold); padding: 12px 0; overflow: hidden; position: relative; }
+        .ticker { display: flex; white-space: nowrap; animation: ticker 30s linear infinite; }
+        .ticker span { font-family: var(--font-ui); color: #111; font-size: 0.85rem; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; padding-right: 50px; }
+        @keyframes ticker { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+
+        /* SECTIONS WITH GHOST TEXT */
+        .section-wrap { padding: var(--padding-section); position: relative; overflow: hidden; max-width: 1400px; margin: 0 auto; }
+        .ghost-text {
+            position: absolute; top: 20px; left: -20px; font-family: var(--font-display); font-size: 15vw; color: rgba(166, 124, 0, 0.04); line-height: 1; pointer-events: none; white-space: nowrap; z-index: 0;
+        }
+        .content-layer { position: relative; z-index: 2; }
+        .h-section { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); color: var(--text-main); margin-bottom: 40px; text-align: center; }
+        .h-section .gold { color: var(--gold); }
+
+        /* TYPOGRAPHY IN CONTENT */
+        .content-layer p { font-size: 1.25rem; margin-bottom: 30px; color: #333; text-align: justify; }
+        .content-layer h2 { font-family: var(--font-display); font-size: 2.2rem; color: var(--gold); margin-top: 50px; margin-bottom: 20px; border-bottom: 1px solid rgba(166,124,0,0.2); padding-bottom: 10px; }
+        .content-layer h3 { font-family: var(--font-display); font-size: 1.8rem; color: #111; margin-top: 40px; margin-bottom: 20px; }
+        
+        .content-img { max-width: 800px; width: 100%; border-radius: 8px; margin: 40px auto; display: block; box-shadow: 0 10px 30px rgba(0,0,0,0.15); }
+
+        /* FACT GRID */
+        .fact-grid {
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; margin-top: 60px; padding-top: 40px; border-top: 1px solid rgba(166, 124, 0, 0.2);
+        }
+        .fact-item { text-align: center; }
+        .fact-item .val { font-family: var(--font-display); font-size: 2.5rem; color: var(--gold); display: block; margin-bottom: 5px; }
+        .fact-item .lbl { font-family: var(--font-ui); font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1.5px; }
+
+        /* BUTTONS */
+        .btn-gold {
+            background: var(--gold); color: #111; border: none; padding: 15px 30px; font-family: var(--font-ui); text-transform: uppercase; font-weight: 600; letter-spacing: 2px; cursor: pointer; width: 100%; transition: all 0.3s;
+        }
+        .btn-gold:hover { background: var(--gold-light); transform: translateY(-3px); box-shadow: 0 10px 20px rgba(166,124,0,0.2); }
+
+        @media(max-width: 900px) {
+            .hero-grid-inner { grid-template-columns: 1fr; text-align: center; }
+            .hero-title { font-size: 3rem; }
+            .badge-wrap { justify-content: center; }
+            .hero-form-panel { max-width: 450px; margin: 0 auto; }
+            .fact-grid { grid-template-columns: 1fr 1fr; }
+            .ghost-text { font-size: 25vw; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; max-width: 1400px; margin: 0 auto; padding: 0 20px;">
+            <a href="/" class="logo">Properties Bangalore</a>
+            <nav class="nav-links" style="display: flex; gap: 25px;">
+                <a href="/">Home</a>
+                <a href="/abhee-ventures/">Abhee Ventures</a>
+                <a href="/total-environment/">Total Environment</a>
+                <a href="/trendsquare-ramsons/east-park-residences/">Trendsquare</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-grid-inner">
+                <div>
+                    <div class="badge-wrap">
+                        <span class="badge filled">NEW LAUNCH</span>
+                        <span class="badge">SARJAPUR ROAD</span>
+                    </div>
+                    <h1 class="hero-title">Total Environment <br><span style="color:#fff;">Sarjapur</span></h1>
+                    <p class="hero-sub">Bangalore's most anticipated 30-acre ultra-luxury biophilic township. Featuring bespoke villaments, eBuild customization, and absolute architectural perfection.</p>
+                </div>
+                <div class="hero-form-panel">
+                    <h3>Register Interest</h3>
+                    <p>Secure exclusive pricing and priority allocation.</p>
+                    <form onsubmit="event.preventDefault(); alert('Thank you for your interest! Our luxury property consultant will contact you shortly.');">
+                        <input type="text" placeholder="Full Name" required style="width: 100%; padding: 15px; margin-bottom: 15px; border: 1px solid rgba(166,124,0,0.3); border-radius: 4px; font-family: var(--font-ui); background: rgba(255,255,255,0.8); outline: none;">
+                        <input type="tel" placeholder="Phone Number" required style="width: 100%; padding: 15px; margin-bottom: 20px; border: 1px solid rgba(166,124,0,0.3); border-radius: 4px; font-family: var(--font-ui); background: rgba(255,255,255,0.8); outline: none;">
+                        <button type="submit" class="btn-gold">Request Pricing & Plans</button>
+                    </form>
+                    <p style="margin-top:20px; font-size:0.75rem; color:#aaa;">RERA Registered | Secure Data</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="ticker-wrap">
+        <div class="ticker">
+            <span>• TOTAL ENVIRONMENT SARJAPUR • PRE-LAUNCH OPEN • 3 & 4 BHK VILLAMENTS FROM ₹3.50 CR* • ZERO BROKERAGE • EXCLUSIVE EOI BENEFITS </span><span>• TOTAL ENVIRONMENT SARJAPUR • PRE-LAUNCH OPEN • 3 & 4 BHK VILLAMENTS FROM ₹3.50 CR* • ZERO BROKERAGE • EXCLUSIVE EOI BENEFITS </span><span>• TOTAL ENVIRONMENT SARJAPUR • PRE-LAUNCH OPEN • 3 & 4 BHK VILLAMENTS FROM ₹3.50 CR* • ZERO BROKERAGE • EXCLUSIVE EOI BENEFITS </span><span>• TOTAL ENVIRONMENT SARJAPUR • PRE-LAUNCH OPEN • 3 & 4 BHK VILLAMENTS FROM ₹3.50 CR* • ZERO BROKERAGE • EXCLUSIVE EOI BENEFITS </span><span>• TOTAL ENVIRONMENT SARJAPUR • PRE-LAUNCH OPEN • 3 & 4 BHK VILLAMENTS FROM ₹3.50 CR* • ZERO BROKERAGE • EXCLUSIVE EOI BENEFITS </span><span>• TOTAL ENVIRONMENT SARJAPUR • PRE-LAUNCH OPEN • 3 & 4 BHK VILLAMENTS FROM ₹3.50 CR* • ZERO BROKERAGE • EXCLUSIVE EOI BENEFITS </span>
+        </div>
+    </div>
+
+    <section class="section-wrap">
+        <div class="ghost-text">MASTERPIECE</div>
+        <div class="content-layer">
+            <h2 class="h-section">The <span class="gold">Architectural</span> Vision</h2>
+            
+                <p>The dawn of a new era in luxury residential architecture has unequivocally arrived with the grand unveiling of <strong>Total Environment Sarjapur new launch Bangalore</strong>. Situated on a sprawling, pristine 30-acre expanse along the highly coveted and rapidly expanding Sarjapur Road corridor, this monumental development fundamentally redefines the very essence of urban luxury living. For those actively searching for <strong>3 and 4 BHK luxury apartments Sarjapur</strong>, Total Environment introduces a profound breath of fresh air—quite literally and metaphorically.</p>
+                <img src="../../images/te_sarjapur_clubhouse.png" class="content-img" alt="Total Environment Sarjapur Clubhouse">
+                <p>Imagine the unadulterated luxury of stepping out of your incredibly spacious living room directly onto a massive, cantilevered terrace garden that functions as your own private, elevated forest. These signature terrace gardens come fully equipped with mature, fully grown living trees, vibrant, cascading shrubs, and highly advanced automated drip irrigation systems that require zero manual intervention. This is not merely a residence; it is a holistic, self-sustaining ecosystem ingeniously engineered to dramatically elevate human well-being, foster absolute tranquility, and provide a permanent, serene escape from the chaotic, exhausting hum of metropolitan life.</p>
+                <p>The sheer scale of this 30-acre master development allows for a genuinely unparalleled living experience. By drastically limiting the residential density across the enormous land parcel, Total Environment ensures that the vast majority of the acreage is strictly reserved for lush, manicured landscaping, dense micro-forests, and tranquil water bodies. The strategic decision to place all vehicular movement exclusively in the subterranean basement levels ensures that the entire ground plane remains a 100% pedestrian-friendly, completely safe, and zero-pollution zone, allowing children and the elderly to roam freely and safely amidst nature.</p>
+            
+            
+            <div class="fact-grid">
+                <div class="fact-item"><span class="val">30</span><span class="lbl">Acres Township</span></div>
+                <div class="fact-item"><span class="val">70%</span><span class="lbl">Open Green Space</span></div>
+                <div class="fact-item"><span class="val">100%</span><span class="lbl">Customizable via eBuild</span></div>
+                <div class="fact-item"><span class="val">₹3.50 Cr</span><span class="lbl">Starting Price</span></div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section-wrap" style="background: var(--bg-panel);">
+        <div class="ghost-text" style="left: auto; right: -20px; color: rgba(0,0,0,0.03);">BIOPHILIC</div>
+        <div class="content-layer">
+            
+                <h2>The eBuild Revolution & Bespoke Luxury</h2>
+                <p>The architectural genius behind Total Environment Sarjapur lies in its steadfast, uncompromising rejection of cookie-cutter, mass-produced housing models. Recognizing that true, absolute luxury is inherently synonymous with hyper-personalization, the developer proudly offers its revolutionary and proprietary <strong>"eBuild"</strong> platform. This highly sophisticated, interactive software suite empowers prospective homeowners to actively participate in the intricate spatial planning and interior design of their residences long before the foundational concrete is even poured. This is an industry-first initiative that completely disrupts the traditional real estate paradigm, allowing the buyer to act as the co-architect of their dream home.</p>
+                <img src="../../images/te_ebuild_interior.png" class="content-img" alt="Bespoke eBuild Interiors">
+                <p>Through the eBuild interface, buyers can drastically alter internal wall alignments to expand the master suite, merge two smaller bedrooms into a massive home theater, or create a completely open-concept living and dining expanse. Beyond structural modifications, the platform offers an incredibly vast, curated library of ultra-premium materials. Homeowners can meticulously select from exotic imported Italian marbles, rich natural timber floorings, handcrafted artisanal tiles, and bespoke cabinetry finishes for the state-of-the-art modular kitchens. They can even dictate the exact placement of ambient lighting fixtures, smart home automation hubs, and HVAC vents to perfectly suit their highly personalized aesthetic preferences and functional requirements.</p>
+                <p>The end result of this deeply collaborative eBuild process is a bespoke, one-of-a-kind living space that perfectly, flawlessly reflects the unique lifestyle, daily habits, and personal taste of its inhabitants. It effectively and beautifully bridges the glaring gap between standardized, developer-built apartment living and the extreme exclusivity (and associated headaches) of constructing a custom-built independent villa from scratch. The peace of mind derived from knowing that your home is uniquely yours, crafted exactly to your specifications by an award-winning development team, is a luxury that very few residential projects anywhere in the world can legitimately offer.</p>
+                
+                <h2>Unrivaled Location: The Sarjapur Advantage</h2>
+                <p>From a purely strategic and financial standpoint, acquiring a prime asset within Total Environment Sarjapur during this highly exclusive early pre-launch phase represents an unparalleled, once-in-a-decade opportunity for immense wealth generation. <strong>Sarjapur Road</strong> is indisputably recognized by leading economic analysts as the absolute crown jewel of East Bangalore's booming real estate market. It functions as a highly vital, central arterial link that seamlessly and efficiently connects massive, global employment hubs, including Whitefield, Electronic City, the Outer Ring Road (ORR) tech belt, and the rapidly burgeoning commercial mega-zones of Bellandur and Marathahalli.</p>
+                <p>The continuous, relentless influx of highly paid technology professionals, expatriates, and senior corporate executives into these sprawling tech parks guarantees a robust, perennial, and intensely aggressive demand for ultra-premium residential properties in the immediate vicinity. These discerning demographics are no longer satisfied with standard luxury; they actively seek out highly differentiated, environmentally conscious, and deeply holistic living environments exactly like the ones pioneered by Total Environment. Consequently, landlords possessing inventory within such flagship developments enjoy essentially zero void periods and command exceptionally high, market-beating rental yields.</p>
+                <p>Furthermore, the massive, government-backed infrastructure mega-projects currently underway are set to exponentially enhance the connectivity, accessibility, and overall livability of the region. Most notably, the ongoing construction of the Namma Metro Phase 2A and Phase 2B lines, alongside the long-anticipated execution of the massive Peripheral Ring Road (PRR), will drastically slash commute times across the city. As these massive public transport networks inevitably become fully operational, historical real estate data overwhelmingly and consistently suggests that property valuations in the immediate micro-market will witness a staggering, explosive hyper-appreciation. Early investors in Total Environment Sarjapur are incredibly well-positioned to ride this massive wave of infrastructure-led capital growth, allowing them to either exit with massive, unprecedented profit margins or secure exceptionally high passive rental income for generations to come.</p>
+            
+        </div>
+    </section>
+    
+    <section class="section-wrap">
+        <div class="ghost-text">LIFESTYLE</div>
+        <div class="content-layer">
+            
+                <h2>Luxury Villaments Sarjapur Road</h2>
+                <p>The residential configurations meticulously designed for Total Environment Sarjapur cater exclusively to the absolute highest echelons of society. The inventory primarily comprises expansive, palatial 3 BHK and 4 BHK <strong>luxury villaments Sarjapur road</strong>. A villament is a highly sophisticated, hybrid architectural form that ingeniously offers the massive floor plates, absolute privacy, and distinct exclusivity of an independent sprawling villa, whilst simultaneously delivering the stringent multi-tier security, world-class resort amenities, and vibrant community lifestyle associated with a premium high-rise apartment complex. This represents the absolute pinnacle of uncompromising residential design.</p>
+                <p>Each individual villament boasts incredibly soaring ceiling heights that dramatically amplify the perception of interior space. Massive, floor-to-ceiling double-glazed French windows flawlessly frame the spectacular views of the central courtyards and the expansive terrace gardens, simultaneously flooding the deep interiors with abundant natural daylight. The architectural blueprints feature strategic cross-ventilation corridors that harness the natural wind patterns of the site, effectively eliminating the need for artificial, energy-consuming climate control during the consistently pleasant Bangalore months. The immense spatial volume ensures that grand pianos, massive library walls, and oversized luxury furniture pieces can be accommodated with absolute ease and aesthetic grace.</p>
+                <p>The structural engineering itself is a masterclass in durability and beauty. By heavily utilizing exposed wire-cut bricks, natural form-finish concrete, and extensively seasoned timber, the development achieves an earthy, highly sophisticated, and incredibly grounded aesthetic. These robust, natural materials do not merely look spectacular; they age gracefully, developing a rich, beautiful patina over the decades, and they require significantly less synthetic maintenance compared to standard plaster and paint finishes. This ensures that the aesthetic integrity and the structural soundness of the property are preserved immaculately for generations.</p>
+
+                <h2>A World-Class Resort Ecosystem</h2>
+                <p>Moving far beyond the luxurious confines of the four walls of the residence, Total Environment Sarjapur offers a massive, integrated amenity ecosystem that rivals, and often surpasses, the world's most exclusive, five-star luxury resorts. The absolute centerpiece of the entire community is a monumental, multi-level central clubhouse. This architectural marvel is meticulously designed to cater comprehensively to the highly diverse recreational, physical, social, and emotional needs of its discerning residents. It serves as the vibrant beating heart of the 30-acre estate, fostering deep community bonds while offering spaces for absolute private retreat.</p>
+                <p>The clubhouse houses a spectacular, temperature-controlled, Olympic-sized lap pool flanked by extensive natural timber decking and shaded luxury cabanas. For fitness enthusiasts, there is a massive, fully equipped cardiovascular and strength training gymnasium outfitted with top-tier Technogym equipment and staffed by internationally certified personal trainers. The opulent spa and wellness center offers highly curated, holistic Ayurvedic therapies, deep-tissue massages, and hydrotherapy circuits. Entertainment is elevated with a private, acoustically treated gold-class cinema theater, alongside an array of fine-dining, chef-driven restaurants, and organic, farm-to-table cafes that utilize produce grown directly within the community's own hydroponic gardens.</p>
+                <p>For the athletically inclined, the project features sprawling, professional-grade tennis courts constructed to international tournament standards, indoor temperature-controlled badminton arenas, squash courts, and extensive, beautifully shaded jogging and cycling tracks that meander gracefully through the lush greenery of the micro-forests. Children are provided with massive, incredibly secure, and highly interactive play zones that are specifically designed by child development experts to foster cognitive growth, social interaction, and rigorous physical activity in a completely safe, rigorously monitored, and zero-vehicular-traffic environment.</p>
+
+                <h2>Uncompromising Sustainability & Eco-Ethics</h2>
+                <p>A deep, uncompromising examination of the master plan reveals an absolute, obsessive commitment to environmental sustainability and long-term ecological balance. Over 70% of the entire 30-acre site is strictly, legally dedicated to beautifully manicured open spaces, pedestrian-only cobblestone boulevards, dense, carefully curated micro-forests, and interconnected, naturally filtered water bodies. This incredibly low land-coverage ratio is practically unheard of in modern metropolitan developments and serves as a testament to the builder's profound respect for the natural topography and the local ecosystem.</p>
+                <p>The project incorporates massive, state-of-the-art rainwater harvesting networks that capture, extensively filter, and efficiently store millions of liters of monsoon rain, drastically reducing the community's reliance on municipal water supplies. Enormous central solar grids are seamlessly integrated into the architectural rooflines, efficiently generating immense amounts of clean, renewable energy that completely powers all common area lighting, clubhouse operations, and landscaping irrigation systems. Furthermore, incredibly advanced, zero-discharge sewage treatment plants recycle 100% of the community's greywater, which is then exclusively utilized for maintaining the lush, expansive gardens and the individual terrace plantations.</p>
+                <p>These highly aggressive, deeply ingrained green initiatives do not merely serve to significantly minimize the project's overall carbon footprint. They also translate directly into massive, tangible financial benefits for the homeowners. By drastically reducing the consumption of external water and power, the long-term monthly maintenance costs are slashed dramatically, ensuring the development remains highly economically viable, fundamentally self-sufficient, and profoundly ecologically responsible for countless generations to come.</p>
+
+                <h2>The Final Verdict: An Unparalleled Legacy Asset</h2>
+                <p>In final, definitive conclusion, <strong>Total Environment Sarjapur</strong> is emphatically not merely another high-end real estate development; it is a profound, industry-defining architectural statement. It stands as a towering, undeniable testament to the absolute fact that modern, hyper-luxurious urban living does not, under any circumstances, have to come at the tragic expense of our deep, intrinsic connection to the natural world. By seamlessly, flawlessly fusing uncompromising, ultra-premium luxury, highly intelligent and unprecedented customizability, robust, deeply ingrained environmental sustainability, and a highly strategic, hyper-growth location, this specific project sets an incredibly high, nearly insurmountable benchmark that the rest of the Indian real estate industry will struggle to match for decades.</p>
+                <p>Whether you are a highly discerning end-user seeking a permanent, deeply tranquil, and breathtakingly beautiful sanctuary to raise your family in absolute peace, or a highly sophisticated, data-driven NRI investor seeking a high-performing, blue-chip financial asset to aggressively anchor your long-term investment portfolio, Total Environment Sarjapur delivers on absolutely all fronts with complete, uncompromising RERA compliance and total, unwavering peace of mind.</p>
+                <p>The window of opportunity to enter this masterpiece at the highly lucrative <strong>Total Environment Sarjapur pre launch price</strong> tier is exceedingly narrow. As the massive infrastructure surrounding Sarjapur continues to mature, the inherent value of this incredible 30-acre biophilic sanctuary will only skyrocket. This is, without a single doubt, a generational legacy asset that demands your immediate, absolute, and utmost attention.</p>
+            
+        </div>
+    </section>
+
+    <!-- 16. Global Real Estate Blog -->
+    <section class="section section-light" style="border-top: 2px solid var(--color-gold); padding: var(--padding-section);">
+        <div class="container" style="max-width: 1400px; margin: 0 auto;">
+            <div class="section-title" style="text-align: center; margin-bottom: 50px;">
+                <h2 style="font-family: var(--font-display); font-size: 2.5rem; color: var(--text-main);">Global Real Estate Insights & News</h2>
+                <div style="width: 60px; height: 3px; background: var(--color-gold); margin: 20px auto 0;"></div>
+            </div>
+            <div class="grid-3" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                <div class="content-card" style="background: var(--bg-panel); padding: 30px; border: 1px solid rgba(0,0,0,0.05); border-radius: 8px;">
+                    <span style="font-family: var(--font-ui); font-size: 0.85rem; color: var(--color-gold); text-transform: uppercase; font-weight: 700; letter-spacing: 1px;">Market Trends</span>
+                    <h3 style="margin: 15px 0; font-size: 1.3rem; font-family: var(--font-display);">Why 2026 is the Undeniable Year of Luxury Real Estate</h3>
+                    <p style="margin-bottom: 20px; text-align: justify; color: var(--text-muted);">Deeply analyzing the massive, unprecedented shift towards high-end gated communities and the powerful macroeconomic drivers forcefully pushing heavy NRI investments back into the homeland's premium property sector.</p>
+                    <a href="/blog/" style="color: var(--color-gold); font-family: var(--font-ui); font-weight: 600; font-size: 1.05rem; display: inline-block;">Read Full Analysis →</a>
+                </div>
+                <div class="content-card" style="background: var(--bg-panel); padding: 30px; border: 1px solid rgba(0,0,0,0.05); border-radius: 8px;">
+                    <span style="font-family: var(--font-ui); font-size: 0.85rem; color: var(--color-gold); text-transform: uppercase; font-weight: 700; letter-spacing: 1px;">Investment Guide</span>
+                    <h3 style="margin: 15px 0; font-size: 1.3rem; font-family: var(--font-display);">Pre-Launch vs. Ready-to-Move: The Ultimate ROI Matrix</h3>
+                    <p style="margin-bottom: 20px; text-align: justify; color: var(--text-muted);">A highly comprehensive, data-driven breakdown of the exact risk-to-reward ratios for aggressive homebuyers looking to mathematically maximize their capital appreciation in tier-1 cities.</p>
+                    <a href="/blog/" style="color: var(--color-gold); font-family: var(--font-ui); font-weight: 600; font-size: 1.05rem; display: inline-block;">Read Full Analysis →</a>
+                </div>
+                <div class="content-card" style="background: var(--bg-panel); padding: 30px; border: 1px solid rgba(0,0,0,0.05); border-radius: 8px;">
+                    <span style="font-family: var(--font-ui); font-size: 0.85rem; color: var(--color-gold); text-transform: uppercase; font-weight: 700; letter-spacing: 1px;">Architecture</span>
+                    <h3 style="margin: 15px 0; font-size: 1.3rem; font-family: var(--font-display);">The Explosive Rise of Biophilic Design in Urban Homes</h3>
+                    <p style="margin-bottom: 20px; text-align: justify; color: var(--text-muted);">Discover exactly how the top real estate developers in India are seamlessly integrating raw nature into concrete jungles to dramatically, scientifically improve resident mental well-being and health.</p>
+                    <a href="/blog/" style="color: var(--color-gold); font-family: var(--font-ui); font-weight: 600; font-size: 1.05rem; display: inline-block;">Read Full Analysis →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" style="background: #111; padding: 40px 0;">
+        <div class="container" style="text-align: center; color: rgba(255,255,255,0.6); max-width: 1400px; margin: 0 auto;">
+            <p style="font-family: var(--font-ui); font-size: 0.9rem;">&copy; 2026 Properties Bangalore. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="../../js/chatbot.js"></script>
+</body>
+</html>

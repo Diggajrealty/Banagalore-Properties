@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total Environment Raindrops | Ready-To-Move Premium Homes</title>
+    <meta name="description" content="Total Environment Raindrops in Haralur is a completed, luxury biophilic residential community offering sprawling earth-themed apartments.">
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="../../css/components.css">
+    <link rel="stylesheet" href="../../css/chatbot.css">
+    
+    <!-- FONTS from Reference Design -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* ABHEE REFERENCE CSS VARIABLES & BASE */
+        :root {
+            --bg-dark: #FAFAFA;
+            --bg-panel: #FFFFFF;
+            --gold: #A67C00;
+            --gold-light: #C9A84C;
+            --text-main: #1A1A1A;
+            --text-muted: #666666;
+            --font-display: 'Cinzel', serif;
+            --font-body: 'Cormorant Garamond', serif;
+            --font-ui: 'Jost', sans-serif;
+            --padding-section: 100px 5%;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            font-family: var(--font-body);
+            line-height: 1.8;
+            overflow-x: hidden;
+            background-image:
+                linear-gradient(rgba(166, 124, 0, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(166, 124, 0, 0.05) 1px, transparent 1px);
+            background-size: 60px 60px;
+        }
+
+        .header { background: #111 !important; padding: 15px 0; }
+        .header .logo { font-family: var(--font-display); color: var(--gold) !important; font-size: 1.8rem; text-decoration: none; }
+        .nav-links a { font-family: var(--font-ui); color: #fff !important; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px; }
+
+        /* HERO SECTION */
+        .hero {
+            position: relative;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            padding: 0 5%;
+            overflow: hidden;
+        }
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+            background: url('../../images/total_env_raindrops.png') no-repeat center center/cover;
+        }
+        .hero-bg::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to right, rgba(10, 10, 10, 0.85) 0%, rgba(10, 10, 10, 0.6) 50%, rgba(10, 10, 10, 0.3) 100%);
+        }
+        .hero-content { position: relative; z-index: 2; width: 100%; }
+        .hero-grid-inner {
+            display: grid; grid-template-columns: 1fr 450px; gap: 60px; align-items: center; max-width: 1400px; margin: 0 auto;
+        }
+        .hero-title { font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 4.5rem); color: var(--gold); line-height: 1.1; margin-bottom: 20px; }
+        .hero-sub { font-family: var(--font-ui); font-size: 1.25rem; color: rgba(255,255,255,0.8); font-weight: 300; margin-bottom: 30px; }
+        .badge-wrap { display: flex; gap: 15px; margin-bottom: 30px; }
+        .badge {
+            font-family: var(--font-ui); padding: 6px 15px; border: 1px solid var(--gold); color: var(--gold); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; border-radius: 50px;
+        }
+        .badge.filled { background: var(--gold); color: #111; font-weight: 600; }
+        
+        .hero-form-panel {
+            background: rgba(255, 255, 255, 0.96); border: 1px solid rgba(166, 124, 0, 0.3); padding: 40px 30px; backdrop-filter: blur(10px); border-radius: 4px;
+        }
+        .hero-form-panel h3 { font-family: var(--font-display); color: var(--gold); font-size: 1.8rem; margin-bottom: 15px; text-align: center; }
+        .hero-form-panel p { font-family: var(--font-ui); text-align: center; font-size: 0.9rem; margin-bottom: 25px; color: var(--text-muted); }
+
+        /* GOLD TICKER */
+        .ticker-wrap { background: var(--gold); padding: 12px 0; overflow: hidden; position: relative; }
+        .ticker { display: flex; white-space: nowrap; animation: ticker 30s linear infinite; }
+        .ticker span { font-family: var(--font-ui); color: #111; font-size: 0.85rem; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; padding-right: 50px; }
+        @keyframes ticker { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+
+        /* SECTIONS WITH GHOST TEXT */
+        .section-wrap { padding: var(--padding-section); position: relative; overflow: hidden; max-width: 1400px; margin: 0 auto; }
+        .ghost-text {
+            position: absolute; top: 20px; left: -20px; font-family: var(--font-display); font-size: 15vw; color: rgba(166, 124, 0, 0.04); line-height: 1; pointer-events: none; white-space: nowrap; z-index: 0;
+        }
+        .content-layer { position: relative; z-index: 2; }
+        .h-section { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); color: var(--text-main); margin-bottom: 40px; text-align: center; }
+        .h-section .gold { color: var(--gold); }
+
+        /* TYPOGRAPHY IN CONTENT */
+        .content-layer p { font-size: 1.25rem; margin-bottom: 30px; color: #333; text-align: justify; }
+        .content-layer h2 { font-family: var(--font-display); font-size: 2.2rem; color: var(--gold); margin-top: 50px; margin-bottom: 20px; border-bottom: 1px solid rgba(166,124,0,0.2); padding-bottom: 10px; }
+        .content-layer h3 { font-family: var(--font-display); font-size: 1.8rem; color: #111; margin-top: 40px; margin-bottom: 20px; }
+        
+        .content-img { max-width: 800px; width: 100%; border-radius: 8px; margin: 40px auto; display: block; box-shadow: 0 10px 30px rgba(0,0,0,0.15); }
+
+        /* FACT GRID */
+        .fact-grid {
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; margin-top: 60px; padding-top: 40px; border-top: 1px solid rgba(166, 124, 0, 0.2);
+        }
+        .fact-item { text-align: center; }
+        .fact-item .val { font-family: var(--font-display); font-size: 2.5rem; color: var(--gold); display: block; margin-bottom: 5px; }
+        .fact-item .lbl { font-family: var(--font-ui); font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1.5px; }
+
+        /* BUTTONS */
+        .btn-gold {
+            background: var(--gold); color: #111; border: none; padding: 15px 30px; font-family: var(--font-ui); text-transform: uppercase; font-weight: 600; letter-spacing: 2px; cursor: pointer; width: 100%; transition: all 0.3s;
+        }
+        .btn-gold:hover { background: var(--gold-light); transform: translateY(-3px); box-shadow: 0 10px 20px rgba(166,124,0,0.2); }
+
+        @media(max-width: 900px) {
+            .hero-grid-inner { grid-template-columns: 1fr; text-align: center; }
+            .hero-title { font-size: 3rem; }
+            .badge-wrap { justify-content: center; }
+            .hero-form-panel { max-width: 450px; margin: 0 auto; }
+            .fact-grid { grid-template-columns: 1fr 1fr; }
+            .ghost-text { font-size: 25vw; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; max-width: 1400px; margin: 0 auto; padding: 0 20px;">
+            <a href="/" class="logo">Properties Bangalore</a>
+            <nav class="nav-links" style="display: flex; gap: 25px;">
+                <a href="/">Home</a>
+                <a href="/abhee-ventures/">Abhee Ventures</a>
+                <a href="/total-environment/">Total Environment</a>
+                <a href="/trendsquare-ramsons/east-park-residences/">Trendsquare</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-grid-inner">
+                <div>
+                    <div class="badge-wrap">
+                        <span class="badge filled">READY TO MOVE</span>
+                        <span class="badge">HARALUR ROAD</span>
+                    </div>
+                    <h1 class="hero-title">Total Environment <br><span style="color:#fff;">Raindrops</span></h1>
+                    <p class="hero-sub">A fully realized oasis of tranquility. Step into an established, ready-to-move-in sanctuary just off Sarjapur Road. Luxury earth-themed homes.</p>
+                </div>
+                <div class="hero-form-panel">
+                    <h3>Register Interest</h3>
+                    <p>Secure exclusive pricing and priority allocation.</p>
+                    <form onsubmit="event.preventDefault(); alert('Thank you for your interest! Our luxury property consultant will contact you shortly.');">
+                        <input type="text" placeholder="Full Name" required style="width: 100%; padding: 15px; margin-bottom: 15px; border: 1px solid rgba(166,124,0,0.3); border-radius: 4px; font-family: var(--font-ui); background: rgba(255,255,255,0.8); outline: none;">
+                        <input type="tel" placeholder="Phone Number" required style="width: 100%; padding: 15px; margin-bottom: 20px; border: 1px solid rgba(166,124,0,0.3); border-radius: 4px; font-family: var(--font-ui); background: rgba(255,255,255,0.8); outline: none;">
+                        <button type="submit" class="btn-gold">Request Pricing & Plans</button>
+                    </form>
+                    <p style="margin-top:20px; font-size:0.75rem; color:#aaa;">RERA Registered | Secure Data</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="ticker-wrap">
+        <div class="ticker">
+            <span>• TOTAL ENVIRONMENT RAINDROPS • READY TO MOVE IN • ZERO CONSTRUCTION RISK • HIGH RENTAL YIELDS • BOOK A SITE VISIT TODAY </span><span>• TOTAL ENVIRONMENT RAINDROPS • READY TO MOVE IN • ZERO CONSTRUCTION RISK • HIGH RENTAL YIELDS • BOOK A SITE VISIT TODAY </span><span>• TOTAL ENVIRONMENT RAINDROPS • READY TO MOVE IN • ZERO CONSTRUCTION RISK • HIGH RENTAL YIELDS • BOOK A SITE VISIT TODAY </span><span>• TOTAL ENVIRONMENT RAINDROPS • READY TO MOVE IN • ZERO CONSTRUCTION RISK • HIGH RENTAL YIELDS • BOOK A SITE VISIT TODAY </span><span>• TOTAL ENVIRONMENT RAINDROPS • READY TO MOVE IN • ZERO CONSTRUCTION RISK • HIGH RENTAL YIELDS • BOOK A SITE VISIT TODAY </span><span>• TOTAL ENVIRONMENT RAINDROPS • READY TO MOVE IN • ZERO CONSTRUCTION RISK • HIGH RENTAL YIELDS • BOOK A SITE VISIT TODAY </span>
+        </div>
+    </div>
+
+    <section class="section-wrap">
+        <div class="ghost-text">MASTERPIECE</div>
+        <div class="content-layer">
+            <h2 class="h-section">The <span class="gold">Architectural</span> Vision</h2>
+            
+                <p>Nestled safely and securely within the deeply tranquil yet highly, strategically connected enclave of Haralur, positioned just moments off the bustling, high-growth Sarjapur Road corridor, <strong>Total Environment Raindrops ready to move</strong> stands today as a brilliant, fully realized testament to profound architectural innovation and deeply sustainable luxury. As a completely finished, genuinely ready-to-move-in residential masterpiece, this incredibly premium community offers highly discerning prospective homebuyers an incredibly rare, highly coveted opportunity. If you are seeking <strong>ready to move luxury apartments near ORR</strong>, you are empowered to entirely bypass the lengthy, deeply stressful, and inherently uncertain wait times.</p>
+                <img src="../../images/te_raindrops_garden.png" class="content-img" alt="Total Environment Terrace Garden">
+                <p>The very name of the project—Raindrops—is specifically chosen to evoke a profound sense of deep serenity, absolute purity, and a powerful, intrinsic connection to the natural world. This is a core architectural philosophy that is incredibly visibly manifested in every single exposed brick, every slab of natural stone, and every meticulously manicured, deeply lush garden nestled within the massive estate. In a modern era where rapid, unbridled urbanization frequently and tragically leads to highly sterile, concrete-heavy environments, Raindrops serves as a profoundly lush, green oasis, offering a highly sophisticated, resort-like lifestyle right in the immediate epicenter of Bangalore's massive, thriving IT corridor.</p>
+                <p>The sheer, immense value of acquiring an Occupancy Certificate (OC) ready property from an elite developer cannot possibly be overstated. The absolute elimination of any and all construction execution risk provides total, unwavering financial peace of mind. For investors, this translates directly into the immediate, absolute ability to generate a highly lucrative, passive rental income stream from day one. For end-users, it means the incredible luxury of physically walking through your exact future home, feeling the profound warmth of the timber floors, experiencing the incredible scale of the massive windows, and immediately taking possession of a fully operational, world-class luxury asset without a single day of anxious waiting.</p>
+            
+            
+            <div class="fact-grid">
+                <div class="fact-item"><span class="val">OC</span><span class="lbl">Received</span></div>
+                <div class="fact-item"><span class="val">100%</span><span class="lbl">Ready Amenities</span></div>
+                <div class="fact-item"><span class="val">Zero</span><span class="lbl">Wait Time</span></div>
+                <div class="fact-item"><span class="val">₹2.20 Cr</span><span class="lbl">Starting Price</span></div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section-wrap" style="background: var(--bg-panel);">
+        <div class="ghost-text" style="left: auto; right: -20px; color: rgba(0,0,0,0.03);">BIOPHILIC</div>
+        <div class="content-layer">
+            
+                <h2>The Aesthetics of Earth & Time</h2>
+                <p>The fundamental architectural DNA of Total Environment Raindrops is entirely defined by its unwavering, obsessive commitment to advanced biophilic design principles and the incredibly extensive use of warm, natural, and highly tactile earthy materials. The exterior facades of the massive residential blocks are a truly stunning, intricately woven interplay of exposed terracotta wire-cut bricks, rough-hewn natural stone cladding, and incredibly warm, seasoned timber accents. This highly deliberate, incredibly thoughtful choice of raw materials achieves significantly more than merely creating a timeless, highly sophisticated aesthetic that gracefully weathers, matures, and actually improves its visual character with the passage of age.</p>
+                <p>From a purely functional, engineering perspective, these incredibly dense, natural materials provide genuinely exceptional thermal and acoustic insulation. The massive walls actively absorb heat during the scorching days and slowly release it during the cooler nights, effectively creating a highly stable, completely natural internal micro-climate that significantly, drastically reduces the energy required for artificial, massive air-conditioning systems. The residential towers are incredibly intentionally kept to a very low to mid-rise profile. This critical design decision ensures a profoundly low-density living experience that actively fosters a tight-knit, deeply secure community feel, while simultaneously ensuring that every single resident is provided with unhindered, breathtaking panoramic views of the massive central courtyards, the extensive, serene water bodies, and the dense, incredibly vibrant foliage that characterizes the entirety of the expansive master plan.</p>
+                <p>The absolute beauty of the Raindrops aesthetic is that it actively rejects the highly sterile, glass-and-steel monotony that plagues so much of modern, high-density urban architecture. Instead, it incredibly successfully embraces the profound Japanese philosophy of Wabi-Sabi—finding absolute perfection in the natural, organic imperfections of earth, wood, and stone. As the creeping vines slowly scale the massive brick walls and the landscaping matures over the decades, the entire complex seamlessly, beautifully blends into the surrounding earth, creating an architectural legacy that is deeply, powerfully rooted in nature.</p>
+                
+                <h2>Indoor-Outdoor Synergy & The Terrace Garden</h2>
+                <img src="../../images/te_ebuild_interior.png" class="content-img" alt="Bespoke Luxury Interiors">
+                <p>Upon stepping inside any of the incredibly spacious, palatial 2 BHK or 3 BHK luxury apartments within Raindrops, one is immediately, profoundly struck by the sheer, immense volume of interior space, the massive abundance of natural daylight pouring in, and the absolutely seamless, flawless integration of the indoor and outdoor living areas. The absolute, undeniable highlight and crown jewel of these magnificent residences is the signature, highly celebrated Total Environment terrace garden. These massive, deeply cantilevered outdoor spaces are emphatically not mere, highly restricted balconies; they are fully functional, sprawling elevated courtyards.</p>
+                <p>Every single terrace garden comes completely equipped with highly advanced automated drip irrigation systems, incredibly rich, deep soil beds specifically engineered for high-rise environments, and fully grown, highly mature living trees. The powerful, immediate presence of this deeply personal, incredibly lush green sanctuary right outside the massive glass doors of the main living room creates a profound, heavily documented psychological impact on the residents. It significantly, measurably lowers stress and cortisol levels, drastically improves immediate air quality, and provides a highly private, deeply tranquil space for morning yoga sessions, quiet evening relaxation, or hosting intimate, unforgettable family gatherings directly under the stars.</p>
+                <p>The internal, highly engineered floor plans and layouts are masterfully, obsessively designed by top-tier architects to ensure absolutely zero dead space, maximizing the highly usable carpet area and facilitating a deeply fluid, highly functional spatial flow between the expansive living zones, the formal dining areas, and the highly private sleeping quarters. Massive, double-glazed floor-to-ceiling French windows act as invisible, sound-proof barriers that draw the incredible beauty of the massive terrace gardens deep into the heart of the home, ensuring that residents remain deeply, powerfully connected to nature at absolutely all times, regardless of the room they are in.</p>
+
+                <h2>Haralur: The Strategic Epicenter</h2>
+                <p>The locational superiority and absolute strategic dominance of Total Environment Raindrops simply, unequivocally cannot be overstated. Situated perfectly in the highly sought-after, highly mature enclave of Haralur, the sprawling project enjoys immediate, highly convenient, and completely uncongested access to the massive Sarjapur Main Road. This critical, highly strategic positioning essentially acts as a vital, high-speed gateway directly into the very heart of Bangalore's most prominent, massive employment hubs and financial districts.</p>
+                <p>Highly skilled professionals and senior executives working in the massive corporate campuses and global tech parks lining the Outer Ring Road (ORR), Bellandur, Marathahalli, and Electronic City will incredibly find their daily, grueling commutes drastically reduced to mere, highly manageable minutes. This profound strategic proximity translates directly into a significantly, massively improved work-life balance, effectively allowing busy residents to spend drastically less time navigating the city's notoriously chaotic traffic and significantly more time actually enjoying the world-class, resort-like amenities within the absolute safety and deep tranquility of their elite community.</p>
+                <p>Furthermore, the immediate, highly developed neighborhood surrounding <strong>Total Environment Haralur road</strong> is incredibly, densely saturated with the absolute best civic and social infrastructure the entire city has to offer. World-class international educational institutions, elite multi-specialty healthcare facilities like Motherhood and Columbia Asia Hospitals, massive premium retail malls, and highly vibrant, bustling entertainment and fine-dining zones are all situated directly within a tight, highly convenient radius.</p>
+            
+        </div>
+    </section>
+    
+    <section class="section-wrap">
+        <div class="ghost-text">LIFESTYLE</div>
+        <div class="content-layer">
+            
+                <h2>Total Environment Raindrops Resale & Price</h2>
+                <p>From a highly rigorous financial and aggressively data-driven investment perspective, acquiring a prime asset in a fully completed, highly acclaimed Total Environment project exactly like Raindrops is a highly secure, genuinely blue-chip strategic maneuver. The absolute, total elimination of all massive construction execution risk, firmly coupled with the absolute, unshakeable legal certainty of a ready property fully possessing an official Occupancy Certificate (OC), makes the <strong>Total Environment Raindrops resale and price</strong> points an incredibly, undeniably safe harbor for significant capital deployment in highly volatile macroeconomic times.</p>
+                <p>Because the luxury property is 100% ready to move in today, shrewd investors can instantly, immediately begin generating a highly lucrative, entirely passive income stream by aggressively tapping into the massive, severely underserved, and highly perennial demand from highly paid expatriates and senior IT executives. This specific, highly discerning demographic heavily, overwhelmingly favors premium, ready-built, comprehensively managed homes in this exact specific micro-market, and they are incredibly willing to pay significant, massive premiums for the unique, biophilic lifestyle that Total Environment guarantees.</p>
+                <p>Historically, meticulously analyzing market data reveals that fully completed, high-end projects in the highly coveted Sarjapur-Haralur belt have consistently demonstrated a highly resilient, steeply upward-trending capital appreciation curve. These elite assets consistently outpace regional inflation rates and absolutely deliver exceptional, market-beating long-term wealth generation and aggressive equity growth for their owners. Raindrops is not merely a deeply beautiful place to live; it is a highly aggressive, deeply secure wealth-building instrument.</p>
+
+                <h2>World-Class Holistic Wellness Ecosystem</h2>
+                <img src="../../images/te_sarjapur_clubhouse.png" class="content-img" alt="Luxury Clubhouse Amenities">
+                <p>The internal community infrastructure and the massive, sprawling amenity ecosystem at Total Environment Raindrops are meticulously, obsessively designed to cater comprehensively to the absolute highest echelons of luxury, intense physical health, and deep holistic wellness. The massive central clubhouse is a profound architectural marvel in itself, seamlessly, beautifully blending into the surrounding, dense organic landscape. It houses a massive, crystal-clear, temperature-controlled swimming pool that is beautifully surrounded by extensive natural timber decking and highly exclusive, shaded luxury cabanas.</p>
+                <p>For individuals dedicated to peak physical conditioning, there is a state-of-the-art, incredibly expansive fitness center fully equipped with the absolute latest cardiovascular and heavy resistance training machinery, completely managed by internationally certified fitness experts. The vast outdoor spaces are a veritable, deeply lush paradise, featuring extensive, highly manicured jogging and cycling tracks that weave beautifully through incredibly dense, mature tree canopies, beautifully designed, deeply tranquil landscaped meditation pavilions, and highly secure, intensely interactive children's play areas specifically designed to stimulate rapid physical and cognitive development.</p>
+                <p>Absolutely every single aspect of the massive facility management and continuous maintenance is strictly handled internally by highly trained, dedicated professional staff. This absolute control ensures that the entire sprawling property is meticulously maintained to the incredibly exacting, deeply rigorous standards of a five-star international luxury hotel, thereby incredibly preserving and massively enhancing the asset's underlying immense value over the long span of time.</p>
+
+                <h2>The Pinnacle of Ready Luxury</h2>
+                <p>Ultimately, in final summation, <strong>Total Environment Raindrops</strong> offers a highly compelling, deeply emotionally resonant, and financially unbeatable value proposition. It represents an incredibly rare, fleeting opportunity to acquire a deeply personal, breathtakingly beautifully crafted living space that fundamentally, profoundly respects and seamlessly integrates with the deep power of the natural world, without sacrificing a single, microscopic ounce of high-end modern urban convenience.</p>
+                <p>It emphatically represents the absolute, undeniable pinnacle of luxury residential real estate in East Bangalore. It functions simultaneously as a highly secure, intensely liquid financial asset, a truly magnificent, deeply safe family home, and a daily, incredibly restorative retreat into the deep heart of nature, all rolled perfectly into one spectacular, immediately ready-to-move-in package. For those who absolutely refuse to compromise on architectural quality, deep environmental sustainability, or immediate, absolute gratification, Raindrops stands completely alone as the ultimate, definitive choice.</p>
+            
+        </div>
+    </section>
+
+    <!-- 16. Global Real Estate Blog -->
+    <section class="section section-light" style="border-top: 2px solid var(--color-gold); padding: var(--padding-section);">
+        <div class="container" style="max-width: 1400px; margin: 0 auto;">
+            <div class="section-title" style="text-align: center; margin-bottom: 50px;">
+                <h2 style="font-family: var(--font-display); font-size: 2.5rem; color: var(--text-main);">Global Real Estate Insights & News</h2>
+                <div style="width: 60px; height: 3px; background: var(--color-gold); margin: 20px auto 0;"></div>
+            </div>
+            <div class="grid-3" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                <div class="content-card" style="background: var(--bg-panel); padding: 30px; border: 1px solid rgba(0,0,0,0.05); border-radius: 8px;">
+                    <span style="font-family: var(--font-ui); font-size: 0.85rem; color: var(--color-gold); text-transform: uppercase; font-weight: 700; letter-spacing: 1px;">Market Trends</span>
+                    <h3 style="margin: 15px 0; font-size: 1.3rem; font-family: var(--font-display);">Why 2026 is the Undeniable Year of Luxury Real Estate</h3>
+                    <p style="margin-bottom: 20px; text-align: justify; color: var(--text-muted);">Deeply analyzing the massive, unprecedented shift towards high-end gated communities and the powerful macroeconomic drivers forcefully pushing heavy NRI investments back into the homeland's premium property sector.</p>
+                    <a href="/blog/" style="color: var(--color-gold); font-family: var(--font-ui); font-weight: 600; font-size: 1.05rem; display: inline-block;">Read Full Analysis →</a>
+                </div>
+                <div class="content-card" style="background: var(--bg-panel); padding: 30px; border: 1px solid rgba(0,0,0,0.05); border-radius: 8px;">
+                    <span style="font-family: var(--font-ui); font-size: 0.85rem; color: var(--color-gold); text-transform: uppercase; font-weight: 700; letter-spacing: 1px;">Investment Guide</span>
+                    <h3 style="margin: 15px 0; font-size: 1.3rem; font-family: var(--font-display);">Pre-Launch vs. Ready-to-Move: The Ultimate ROI Matrix</h3>
+                    <p style="margin-bottom: 20px; text-align: justify; color: var(--text-muted);">A highly comprehensive, data-driven breakdown of the exact risk-to-reward ratios for aggressive homebuyers looking to mathematically maximize their capital appreciation in tier-1 cities.</p>
+                    <a href="/blog/" style="color: var(--color-gold); font-family: var(--font-ui); font-weight: 600; font-size: 1.05rem; display: inline-block;">Read Full Analysis →</a>
+                </div>
+                <div class="content-card" style="background: var(--bg-panel); padding: 30px; border: 1px solid rgba(0,0,0,0.05); border-radius: 8px;">
+                    <span style="font-family: var(--font-ui); font-size: 0.85rem; color: var(--color-gold); text-transform: uppercase; font-weight: 700; letter-spacing: 1px;">Architecture</span>
+                    <h3 style="margin: 15px 0; font-size: 1.3rem; font-family: var(--font-display);">The Explosive Rise of Biophilic Design in Urban Homes</h3>
+                    <p style="margin-bottom: 20px; text-align: justify; color: var(--text-muted);">Discover exactly how the top real estate developers in India are seamlessly integrating raw nature into concrete jungles to dramatically, scientifically improve resident mental well-being and health.</p>
+                    <a href="/blog/" style="color: var(--color-gold); font-family: var(--font-ui); font-weight: 600; font-size: 1.05rem; display: inline-block;">Read Full Analysis →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" style="background: #111; padding: 40px 0;">
+        <div class="container" style="text-align: center; color: rgba(255,255,255,0.6); max-width: 1400px; margin: 0 auto;">
+            <p style="font-family: var(--font-ui); font-size: 0.9rem;">&copy; 2026 Properties Bangalore. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="../../js/chatbot.js"></script>
+</body>
+</html>
