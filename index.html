@@ -284,7 +284,7 @@
                 <div class="hero-form-wrapper">
                     <h3>Get Expert Advice</h3>
                     <p>Speak to our property advisors for exclusive offers and floor plans.</p>
-                    <form onsubmit="submitEnquiry(event)" name="homepage-enquiry" data-netlify="true" netlify-honeypot="bot-field">
+                    <form onsubmit="submitHomepageEnquiry(event)" name="homepage-enquiry" data-netlify="true" netlify-honeypot="bot-field">
     <input type="hidden" name="form-name" value="homepage-enquiry">
     <input name="bot-field" style="display:none">
                         <input type="text" class="form-control" placeholder="Your Name" required>
@@ -295,6 +295,32 @@
             </div>
         </div>
     </section>
+
+    <!-- AI Call Trigger: homepage hero form only -->
+    <script>
+    async function submitHomepageEnquiry(event) {
+        // Read values BEFORE calling submitEnquiry, which replaces the DOM on success
+        const form = event.target;
+        const nameVal  = (form.querySelector('input[type="text"]') || {}).value || '';
+        const phoneVal = (form.querySelector('input[type="tel"]')  || {}).value || '';
+
+        // Run the existing Netlify submission + success-message logic unchanged
+        await submitEnquiry(event);
+
+        // Fire-and-forget AI call — does NOT affect the user-facing flow
+        ;(async () => {
+            try {
+                await fetch('/.netlify/functions/trigger-call', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ name: nameVal, phone: phoneVal })
+                });
+            } catch (aiErr) {
+                console.warn('AI call trigger failed (non-critical):', aiErr);
+            }
+        })();
+    }
+    </script>
 
     <!-- Interactive Mega Menu Script -->
     <script>
