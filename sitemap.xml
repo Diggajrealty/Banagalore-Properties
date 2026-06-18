@@ -378,4 +378,10 @@
     <priority>0.7</priority>
       <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://propertiesbangalore.co.in/brigade-group/brigade-granada/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <priority>0.7</priority>
+      <changefreq>monthly</changefreq>
+  </url>
 </urlset>
