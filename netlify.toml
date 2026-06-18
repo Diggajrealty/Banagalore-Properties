@@ -12,9 +12,88 @@
   to = "/.netlify/functions/enquiry"
   status = 200
 
+# Blog .html → clean URL 301 redirects (SEO: prevents duplicate content)
+[[redirects]]
+  from = "/blog/abhee-ventures-review.html"
+  to = "/blog/abhee-ventures-review/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/bangalore-real-estate-trends.html"
+  to = "/blog/bangalore-real-estate-trends/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/brigade-group-review.html"
+  to = "/blog/brigade-group-review/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/dsr-group-review.html"
+  to = "/blog/dsr-group-review/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/godrej-properties-review.html"
+  to = "/blog/godrej-properties-review/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/impact-of-namma-metro.html"
+  to = "/blog/impact-of-namma-metro/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/luxury-apartments-vs-villas.html"
+  to = "/blog/luxury-apartments-vs-villas/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/mana-projects-review.html"
+  to = "/blog/mana-projects-review/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/nambiar-builders-review.html"
+  to = "/blog/nambiar-builders-review/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/nri-investment-guide-india.html"
+  to = "/blog/nri-investment-guide-india/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/pre-launch-vs-ready-to-move.html"
+  to = "/blog/pre-launch-vs-ready-to-move/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/prestige-group-review.html"
+  to = "/blog/prestige-group-review/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/sarjapur-road-investment-guide.html"
+  to = "/blog/sarjapur-road-investment-guide/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/sobha-limited-review.html"
+  to = "/blog/sobha-limited-review/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/understanding-rera-karnataka.html"
+  to = "/blog/understanding-rera-karnataka/"
+  status = 301
+
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    X-XSS-Protection = "1; mode=block"
